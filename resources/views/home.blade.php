@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="id"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="/assets/analytics.js" type="text/javascript"></script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="/assets/js/analytics.js" type="text/javascript"></script>
 <script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app217.us.archive.org';v.server_ms=230;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/assets/js/bundle-playback.js" charset="utf-8"></script>
 <script type="text/javascript" src="/assets/js/wombat.js" charset="utf-8"></script>
@@ -33,12 +33,14 @@
 	<meta name="google-site-verification" content="#">
 
 	<title>Sindikat - Portal Bisnis &amp; Usaha Urusan Bisnis Anda</title>
-	<link rel="stylesheet" type="text/css" href="/assets/css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="/assets/css/theme-styles1.css">
-	<link rel="stylesheet" type="text/css" href="/assets/css/blocks.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/theme-styles1.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/blocks.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/widgets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.5/css/perfect-scrollbar.min.css" integrity="sha512-ygIxOy3hmN2fzGeNqys7ymuBgwSCet0LVfqQbWY10AszPMn2rB9JY0eoG0m1pySicu+nvORrBmhHVSt7+GI9VA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/jquery.pagepiling.min.css" media="all">
+    {{-- <link rel="stylesheet" type="text/css" href="/assets/css/jquery.pagepiling.min.css" media="all"> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.css" integrity="sha512-W9OWS8dgpQBw5Hb+tbMto1BMsHvYOXT/AFBGvASCPUJleaEdpOAN5lzgj9RrTbo3YrlR+m9xdOBccp8F+SFyQg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/animate.min.css">
@@ -909,9 +911,7 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 				</a>
 			</div>
 		</div>
-
 	</div>
-
 <!-- start footer old
 <footer id="site-footer" class="home-footer bg-dark hidden-xs">
 	<div class="container">
@@ -1064,7 +1064,8 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 
 <script src="/assets/js/method-assign.js"></script>
 
-<script src="/assets/js/jquery-3.4.1.min.js"></script>
+{{-- <script src="/assets/js/jquery-3.4.1.min.js"></script> --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="/assets/js/ajax-pagination.js"></script>
 <script src="/assets/js/bootstrap.js"></script>
@@ -1078,11 +1079,13 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 <script src="/assets/js/jquery-circle-progress.js"></script>
 <script src="/assets/js/jquery-countTo.js"></script>
 
-<script src="/assets/js/jquery.pagepiling.min.js"></script>
+{{-- <script src="/assets/js/jquery.pagepiling.min.js"></script> --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js" integrity="sha512-FcXc9c211aHVJEHxoj2fNFeT8+wUESf/4mUDIR7c31ccLF3Y6m+n+Wsoq4dp2sCnEEDVmjhuXX6TfYNJO6AG6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="/assets/js/material.min.js"></script>
 
-<script src="/assets/js/perfect-scrollbar.js"></script>
+{{-- <script src="/assets/js/perfect-scrollbar.js"></script> --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.5/perfect-scrollbar.min.js" integrity="sha512-X41/A5OSxoi5uqtS6Krhqz8QyyD8E/ZbN7B4IaBSgqPLRbWVuXJXr9UwOujstj71SoVxh5vxgy7kmtd17xrJRw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="/assets/js/popper.min.js"></script>
 <script src="/assets/js/select2.js"></script>
 <script src="/assets/js/svgxuse.js"></script>
@@ -1092,14 +1095,9 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 <script src="/assets/js/MarkerClusterGroup.js"></script>
 <script src="/assets/js/ion.rangeSlider.js"></script>
 <script src="/assets/js/main-global.js"></script>
-
 <script src="/assets/js/jquery.validate.min.js"></script>
 <script src="/assets/js/sweetalert2.all.js"></script>
 <script src="/assets/js/scripts.js"></script>
-
-
-
-
 	<script type="text/javascript">
 		$(document).ready(function() {
 			if ($(window).width() > 767) {

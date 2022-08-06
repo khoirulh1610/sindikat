@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0147)https://web.archive.org/web/20200721152030/http://www.sindikat.co.id/blog/perjanjian-pemegang-saham-untuk-menghindari-sengketa-antar-partner-bisnis -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="/assets/js/analytics.js.download" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=1164;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="/assets/js/bundle-playback.js.download" charset="utf-8"></script>
-<script type="text/javascript" src="/assets/js/wombat.js.download" charset="utf-8"></script>
-<script type="text/javascript">
-  __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://www.sindikat.co.id:80/blog/perjanjian-pemegang-saham-untuk-menghindari-sengketa-antar-partner-bisnis","20200721152030","https://web.archive.org/","web","/_static/",
-	      "1595344830");
-</script>
-<link rel="stylesheet" type="text/css" href="/assets/css/banner-styles.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/iconochive.css">
-<!-- End Wayback Rewrite JS Include -->
-
-	
+<html lang="en">
+	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="csrf-token" content="rpNQU4PiLVOTEpEvpkTygNfGqFrcsIOZwdS2Z6br">
 	<meta property="og:title" content="Perjanjian Pemegang Saham Untuk Menghindari Sengketa Antar Partner Bisnis | Sindikat">
@@ -1481,28 +1469,8 @@ body.swal2-no-backdrop .swal2-shown {
             <path d="M355.105 34.825c-14.8 0-22.337-6.9-28.988-12.986C320.112 16.342 315.368 12 305.231 12s-14.881 4.342-20.887 9.839c-6.65 6.087-14.188 12.986-28.988 12.986s-22.337-6.9-28.988-12.986C220.363 16.342 215.62 12 205.483 12S190.6 16.342 184.6 21.839c-6.65 6.087-14.188 12.986-28.988 12.986s-22.334-6.9-28.984-12.986c-6-5.5-10.747-9.839-20.882-9.839s-14.879 4.342-20.884 9.839c-6.65 6.087-14.188 12.986-28.987 12.986s-22.338-6.9-28.989-12.986C20.88 16.342 16.137 12 6 12A6 6 0 0 1 6 0c14.8 0 22.337 6.9 28.988 12.986 6.005 5.5 10.749 9.839 20.886 9.839s14.879-4.342 20.884-9.838C83.408 6.9 90.946 0 105.745 0s22.335 6.9 28.985 12.987c6 5.5 10.746 9.838 20.881 9.838s14.88-4.342 20.885-9.838C183.146 6.9 190.684 0 205.483 0s22.337 6.9 28.988 12.987c6.005 5.5 10.749 9.838 20.885 9.838s14.881-4.342 20.886-9.838C282.893 6.9 290.431 0 305.231 0s22.338 6.9 28.989 12.987c6.005 5.5 10.748 9.838 20.885 9.838s14.883-4.342 20.89-9.839C382.646 6.9 390.185 0 404.986 0a6 6 0 0 1 0 12c-10.139 0-14.883 4.342-20.89 9.839-6.651 6.087-14.189 12.986-28.991 12.986z" data-name="Capa 1"></path>
         </g>
     </symbol>
-</svg><!-- BEGIN WAYBACK TOOLBAR INSERT -->
-<style type="text/css">
-body {
-  margin-top:0 !important;
-  padding-top:0 !important;
-  /*min-width:800px !important;*/
-}
+</svg>
 </style>
-<script>__wm.rw(0);</script>
-<div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20200721152030/http://www.sindikat.co.id:80/blog/perjanjian-pemegang-saham-untuk-menghindari-sengketa-antar-partner-bisnis</div>
-<script type="text/javascript">//<![CDATA[
-__wm.bt(675,27,25,2,"web","http://www.sindikat.co.id/blog/perjanjian-pemegang-saham-untuk-menghindari-sengketa-antar-partner-bisnis","20200721152030",1996,"/_static/",["/_static/css/banner-styles.css?v=fantwOh2","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
-  __wm.rw(1);
-//]]></script>
-<!-- END WAYBACK TOOLBAR INSERT -->
-
-
-
-<!-- ... end Preloader -->
-
-
-<!-- Header -->
 <header class="header">
 	<div class="container">
 		<div class="header-content-wrapper">
@@ -2312,6 +2280,4 @@ __wm.bt(675,27,25,2,"web","http://www.sindikat.co.id/blog/perjanjian-pemegang-sa
 
 <script src="/assets/js/jquery.validate.min.js.download"></script>
 <script src="/assets/js/sweetalert2.all.js.download"></script>
-<script src="/assets/js/scripts.js.download"></script>
-<script type="text/javascript">$(document).ready(function(){$("#site-header").addClass("home-nav")});</script>
 </body></html>
