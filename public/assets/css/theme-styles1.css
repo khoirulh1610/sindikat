@@ -99,8 +99,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/bowlby-one-v11-latin-regular.eot");
-  src: local("Bowlby One Regular"), local("BowlbyOne-Regular"), url("/assets/fonts/bowlby-one-v11-latin-regular.eot#iefix") format("embedded-opentype"), url("/assets/fonts/bowlby-one-v11-latin-regular.woff2") format("woff2"), url("/assets/fonts/bowlby-one-v11-latin-regular.woff") format("woff"), url("/assets/fonts/bowlby-one-v11-latin-regular.ttf") format("truetype"), url("/assets/fonts/bowlby-one-v11-latin-regular.svg#BowlbyOne") format("svg");
+  src: url("/assets/fonts/bowlby-one-v19-latin-regular.eot");
+  src: local("Bowlby One Regular"), local("BowlbyOne-Regular"), url("/assets/fonts/bowlby-one-v19-latin-regular.eot#iefix") format("embedded-opentype"), url("/assets/fonts/bowlby-one-v19-latin-regular.woff2") format("woff2"), url("/assets/fonts/bowlby-one-v19-latin-regular.woff") format("woff"), url("/assets/fonts/bowlby-one-v19-latin-regular.ttf") format("truetype"), url("/assets/fonts/bowlby-one-v19-latin-regular.svg#BowlbyOne") format("svg");
 }
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -658,7 +658,7 @@ h4, .h4 {
 h5, .h5 {
   margin: -0.7em 0;
   font-size: 24px;
-  
+
   font-weight: normal;
   color: #000;
   font-family: 'Bowlby One', cursive;
@@ -705,8 +705,8 @@ h6, .h6 {
       font-size: 1em; } }
   @media (max-width: 360px) {
     h6, .h6 {
-      font-size: .9em; 
-  } 
+      font-size: .9em;
+  }
 }
 
 .textshadow1{
@@ -1201,8 +1201,8 @@ body.crumina-grid .kc_col-of-5 {
 .container {
   padding-right: 20px;
   padding-left: 20px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 @media (min-width: 768px) {
@@ -5555,13 +5555,13 @@ section>.container, footer>.container {
 }
 .sub-menu.sub-menu-atas {
   top: 50px;
-  bottom: auto; 
- 
+  bottom: auto;
+
 }
 
 .sub-menu.sub-menu-bottom {
   top: auto;
-  bottom: -10px; 
+  bottom: -10px;
 }
 /*------------- #OVERLAY MENU STYLE 2 --------------*/
 .overlay-menu--style2 {
@@ -5763,6 +5763,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
 
 #pagepiling {
   position: relative;
+  width: 100%;
 }
 @media (min-width: 768px) {
   #pagepiling {
@@ -5812,6 +5813,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
 #section2 .intro {
   position: relative;
   z-index: 2;
+  margin: 0 0 0 0;
 }
 @media (min-width: 768px) {
   #section2 .intro {
@@ -6170,8 +6172,9 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
   -webkit-transform: translate3d(0, 0, 0);
 }
 .cover-slide .contents-inner {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  width:30%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -75%) rotate(-4deg);
 }
@@ -6185,7 +6188,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
   color: #000000;
   padding: 20px;
   margin: 0;
-  font-size: 3.85vw;
+  font-size: 2.7vw;
   font-style: normal;
   white-space: nowrap;
   -webkit-touch-callout: none;

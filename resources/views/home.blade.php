@@ -31,15 +31,15 @@
 
 	<!-- Meta -->
 	<meta name="google-site-verification" content="#">
-	
+
 	<title>Sindikat - Portal Bisnis &amp; Usaha Urusan Bisnis Anda</title>
 	<link rel="stylesheet" type="text/css" href="/assets/css/plugins.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/theme-styles1.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/blocks.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/widgets.css">
-	         
+
     <link rel="stylesheet" type="text/css" href="/assets/css/jquery.pagepiling.min.css" media="all">
-			
+
 	<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/animate.min.css">
 	<link rel="stylesheet" href="/assets/css/css_custom.css">
@@ -288,7 +288,7 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 		<div class="header-content-wrapper">
 			<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/" class="site-logo">
 				<h3 class="link--with-decoration textshadow1">SINDIKAT</h3>
-				
+
 			</a>
 
 			<a href="#" class="open-main-menu js-open-aside">
@@ -310,7 +310,7 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 	<div class="perfect-scroll">
 		<nav class="overlay-menu">
 		<ul class="overlay-menu-list">
-			
+
 
 			<li class="overlay-menu-item c-grey-light">
 				<a href="#"><span class="">Promo</span></a>
@@ -323,14 +323,12 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 						<div class="me-block"><img src="http://sindikat.co.id/assets/img/-2.png" alt="agen sindikat"></div>
 					</li>
 				-->
-					
+
 				</ul>
 				<ul class="sub-menu visible-xs">
 					<h5 class="uppercase mb0 link--with-decoration mt30">Special Cashback</h5>
 					<h6 class="uppercase mb30">Untuk pelunasan dimuka</h6>
 					<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width">Hubungi Kami</a>
-					
-					
 				</ul>
 			</li>
 
@@ -398,12 +396,12 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/panduan/oss-nib">OSS &amp; NIB</a>
 					</li>
 				</ul>
-					
-					
-				
+
+
+
 			</li>
-			
-			
+
+
 			<li class="overlay-menu-item c-grey-light">
 				<a href="#">Layanan</a>
 				<ul class="sub-menu hidden-xs">
@@ -426,11 +424,11 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 					<li class="overlay-menu-item c-grey-light hidden-xs">
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/perizinan" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Urus Perizinan</a>
 					</li>
-					
+
 					<li class="overlay-menu-item c-grey-light hidden-xs">
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/virtual-office" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Virtual Office</a>
 					</li>
-					
+
 
 				</ul>
 
@@ -454,14 +452,14 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 					<li class="overlay-menu-item c-grey-light visible-xs">
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/perizinan">Perizinan</a>
 					</li>
-					
+
 					<li class="overlay-menu-item c-grey-light visible-xs">
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/virtual-office">Virtual Office</a>
 					</li>
 				</ul>
-					
-					
-				
+
+
+
 			</li>
 			<li class="overlay-menu-item c-grey-light">
 				<a href="#">Tentang</a>
@@ -477,7 +475,7 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 						<div class="me-block"><img src="/assets/img/-3-res-.png" alt="agen sindikat 2"></div>
 					</li>
 
-				</ul>	
+				</ul>
 				<ul class="sub-menu visible-xs">
 					<li class="overlay-menu-item c-grey-light visible-xs">
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/tentang-kami">Personel</a>
@@ -491,164 +489,164 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 				<a href="#"><span class="link--with-decoration">Channel</span></a>
 				<ul class="sub-menu sub-menu-bottom">
 					<li class="overlay-menu-item  hidden-xs">
-						
-								
-								
+
+
+
 									<h5 class="uppercase align-left">Bincang Bisnis</h5>
 									<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
 									<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
 
 									<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Lihat Siaran</a>
-								
-					
+
+
 					</li>
 					<li class="overlay-menu-item c-grey-light widget visible-xs">
-						
-								
-								
+
+
+
 									<h5 class="uppercase mt30">Bincang Bisnis</h5>
 									<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
 									<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
 									<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30">Lihat Siaran</a>
-								
-					
+
+
 					</li>
-					
+
 				</ul>
 			</li>
 			<li class="overlay-menu-item c-grey-light">
 				<a href="#">KBLI 2017</a>
 				<ul class="sub-menu sub-menu-bottom">
 					<li class="overlay-menu-item  hidden-xs">
-						
-								
-								
+
+
+
 									<h5 class="uppercase align-left">Cek Kode KBLI 2017</h5>
 									<img src="/assets/img/kbli-2017-res.jpg" class="mt30" alt="kbli 2017">
-									
+
 
 									<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width  align-left">Lihat KBLI</a>
-								
-					
+
+
 					</li>
 					<li class="overlay-menu-item c-grey-light widget visible-xs">
-						
-								
-								
+
+
+
 									<h5 class="uppercase align-left mt30">Cek Kode KBLI 2017</h5>
 									<img src="/assets/img/kbli-2017-res.jpg" class="mt30" alt="kbli 2017">
-									
+
 
 									<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30">Lihat KBLI</a>
-								
-					
+
+
 					</li>
-					
+
 				</ul>
 			</li>
 			<li class="overlay-menu-item c-grey-light">
 				<a href="#">Zonasi</a>
 				<ul class="sub-menu sub-menu-bottom">
-					
+
 					<li class="overlay-menu-item  hidden-xs">
 									<h5 class="uppercase align-left">Cek Zonasi Jakarta!</h5>
 									<img src="/assets/img/zonasi-c.png" class="mt30" alt="zonasi jakarta">
-									
+
 
 									<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/zonasi" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Lihat Zonasi</a>
-								
-					
+
+
 					</li>
 
 					<li class="overlay-menu-item visible-xs">
-						
-								
-								
-									
+
+
+
+
 									<img src="/assets/img/zonasi-c.png" class="mb0" alt="zonasi jakarta">
-									
+
 
 									<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/zonasi" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30">Lihat Zonasi</a>
-								
-					
+
+
 					</li>
-					
-					
+
+
 				</ul>
 			</li>
 			<li class="overlay-menu-item c-grey-light">
 				<a href="#">Kamus Hukum</a>
 				<ul class="sub-menu sub-menu-bottom">
 					<li class="overlay-menu-item  hidden-xs">
-						
-								
-								
+
+
+
 									<h5 class="uppercase align-left mb30">Cek Istilah Hukum!</h5>
 									<h6 class="uppercase mb30">Lebih dari 11.000 istilah hukum</h6>
-									
-									
+
+
 
 									<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/kamus-hukum" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width  align-left">Lihat Kamus Hukum</a>
-								
-					
+
+
 					</li>
 					<li class="overlay-menu-item c-grey-light widget visible-xs">
-						
-								
-								
+
+
+
 									<h5 class="uppercase align-left mt30">Cek Istilah Hukum!</h5>
 									<h6 class="uppercase mb30">Lebih dari 11.000 istilah hukum</h6>
-									
+
 
 									<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/kamus-hukum" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30"> Lihat Kamus Hukum</a>
-								
-					
+
+
 					</li>
-					
+
 				</ul>
 			</li>
 			<li class="overlay-menu-item c-grey-light">
 				<a href="#">Blog</a>
 				<ul class="sub-menu">
-					
+
 					<li class="overlay-menu-item c-grey-light hidden-xs">
-						
+
 
 									<div class="me-block"><img src="/assets/-4.png" alt="agen sindikat 4"></div>
-									
+
 
 									<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/blog" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Baca Blog</a>
 					</li>
 					<li class="overlay-menu-item visible-xs">
-						
-								
-								
-									
+
+
+
+
 									<h5 class="uppercase mt30 mb30">Panduan lengkap &amp; Artikel terbaru</h5>
-									
+
 
 									<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/blog" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width">Baca Blog</a>
-								
-					
+
+
 					</li>
-					
+
 				</ul>
 			</li>
 			<li class="overlay-menu-item c-grey-light">
 				<a href="#">Hubungi Kami</a>
 				<ul class="sub-menu">
-					
+
 					<li class="overlay-menu-item c-grey-light hidden-xs">
-						
+
 						<div class="me-block"><img src="/assets/img/-2-res-.png" alt="agen sindikat 6"></div>
-						
+
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Hubungi Kami</a>
-					
+
 					</li>
 
 					<li class="overlay-menu-item c-grey-light visible-xs">
-						
-						
+
+
 						<p class="c-secondary">Jl. H. Kelik, Ruko Permata Regency D/37 Kembangan <br>Jakarta Barat 11630 <br>
 							<br>
 						<strong>P / WA: </strong>0811-899-895 <br>
@@ -656,36 +654,28 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 						<strong>W: </strong>www.sindikat.co.id
 						</p>
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width">Hubungi Kami</a>
-					
+
 					</li>
-					
-					
+
+
 				</ul>
 			</li>
 			<li class="overlay-menu-item"><a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/penawaran" class=" mt30 btn btn--x-large btn--primary">Minta Penawaran</a>
 			</li>
 
 		</ul>
-		
+
 	</nav>
 	</div>
-
-	
-
 </div>
-
-
-	
-	
-	
 <!-- ... Overlay Menu -->
 
 
 <div id="pagepiling">
 	<div class="pill-inner">
 		<div id="cover-text" class="slide cover-slide pp-easing">
-			<div class="contents-inner">
-				<h1 class="uppercase">Kami Membantu <br>Bisnis Anda</h1>
+			<div class="contents-inner" style="text-align:center">
+				<h1 class="">Kami Membantu <br>Bisnis Anda</h3>
 			</div>
 		</div>
 		<div class="me-intro hidden-xs"><div class="me-block"><img src="/assets/img/orang2-c1.png"></div></div>
@@ -699,16 +689,12 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 								<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
 									<h2 class="uppercase link--with-decoration mb30">Portal Bisnis &amp; Usaha</h2>
 									<div class="heading-text mb30"><strong>Kenapa kami spesial?</strong></div>
-									<p>Sindikat adalah portal bisnis bagi pengusaha pemula dengan 
-memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>Intinya kami membantu semua urusan bisnis Anda.</strong></p>
+									<p>Sindikat adalah portal bisnis bagi pengusaha pemula dengan memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>Intinya kami membantu semua urusan bisnis Anda.</strong></p>
 								</header>
-								
+
 							</div>
 							<div class="col-lg-4 col-lg-offset-4 right ">
-
 								<ul class="crumina-module crumina-accordion accordion--style2" id="accordion2">
-									
-
 									<li class="accordion-panel">
 										<div class="panel-heading">
 											<a href="#toggle2" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
@@ -766,7 +752,7 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 
 										<div id="toggle3" class="panel-collapse collapse" aria-expanded="false" role="tree">
 											<div class="panel-info">
-												
+
 												<span class="align-left"><strong>Bincang seputar bisnis dan informasi terkait hukum, keuangan dan perpajakan</strong></span>
 												<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
 												<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
@@ -797,14 +783,14 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 												<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/jasa-akuntansi" class="">
 													<div class="heading-text link--with-decoration"><strong> Jasa Akuntansi</strong></div>
 												</a><br>
-												
+
 												<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/pembuatan/pembuatan-perseroan-terbatas-pt" class="">
 													<div class="heading-text link--with-decoration"><strong>Jasa Pendirian PT</strong></div>
 												</a><br>
 												<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/pembuatan/pembuatan-cv" class="">
 													<div class="heading-text link--with-decoration"><strong> Jasa Pendirian CV</strong></div>
 												</a><br>
-												
+
 												<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/pt-pma-foreign-owned-company" class="">
 													<div class="heading-text link--with-decoration"><strong>PT PMA</strong></div>
 												</a><br>
@@ -831,7 +817,7 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 
 										<div id="toggle5" class="panel-collapse collapse" aria-expanded="false" role="tree">
 											<div class="panel-info">
-												
+
 												<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/kbli" class="">
 													<div class="heading-text link--with-decoration"><strong>KBLI 2017</strong></div>
 												</a><br>
@@ -841,7 +827,7 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 												<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/kamus-hukum" class="">
 													<div class="heading-text link--with-decoration"><strong>Kamus Hukum</strong></div>
 												</a>
-												
+
 											</div>
 										</div>
 									</li>
@@ -858,18 +844,13 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 										</div>
 										<div id="toggle6" class="panel-collapse collapse" aria-expanded="false" role="tree">
 											<div class="panel-info">
-												
+
 												<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/blog" class="">
 													<div class="heading-text link--with-decoration"><strong>Baca Blog Kami</strong></div>
 												</a><br>
-												
-												
 											</div>
 										</div>
-
-										
 									</li>
-
 								</ul>
 							</div>
 						</div>
@@ -878,7 +859,7 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 			</div>
 			<div class="bg-opac"></div>
 		</div>
-		
+
 		<section class="bg-dark visible-xs">
 		<div class="container">
 			<div class="cover-slide3 mb60">
@@ -886,12 +867,6 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 					<h2 class="uppercase align-center heading">Mau Konsultasi!</h2>
 				</div>
 			</div>
-
-
-
-
-				
-
 			<div class="row medium-padding60 mb60">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="promo-block">
@@ -905,19 +880,12 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 			</div>
 		</div>
 	</section>
-
-
-		
-
-
 	</div>
 </div>
-
-
 	<div>
 		<div class="me-intro-samping fixed hidden-xs">
-			<div class="me-block animated slideInRight slow delay-15">				
-					<img src="/assets/img/c-samping-c.png" alt="whatsapp button sindikat">				
+			<div class="me-block animated slideInRight slow delay-15">
+					<img src="/assets/img/c-samping-c.png" alt="whatsapp button sindikat">
 			</div>
 		</div>
 		<div class="me-intro-get fixed hidden-xs">
@@ -944,7 +912,7 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 				</a>
 			</div>
 		</div>
-		
+
 	</div>
 
 <!-- start footer old
@@ -1040,16 +1008,16 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 				</div>
 				<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 align-right">
 					<div class="widget w-contacts">
-						
-							
+
+
 							<span>
 							<a href="#"><img src="/assets/img/c-spotify-c-res-.png" class="" alt="spotify sindikat" width="100px"></a>
-						
-						
+
+
 							<a href="#"><img src="/assets/img/c-youtube-c-res-.png" class="" alt="youtube sindikat" width="100px"></a>
 							</span>
-							
-						
+
+
 					</div>
 				</div>
 			</div>
@@ -1079,7 +1047,7 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 							</div>
 					</div>
 
-					
+
 						<div class="align-center"><h5 class="uppercase link--with-decoration mt30 mb30">siaran bincang bisnis</h5></div>
 						<div class="col-xs-6">
 							<img src="/assets/img/c-spotify-c-res-.png" class="" alt="spotify sindikat">
@@ -1087,8 +1055,8 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 						<div class="col-xs-6">
 							<img src="/assets/img/c-youtube-c-res-.png" class="" alt="youtube sindikat">
 						</div>
-					
-					
+
+
 				</div>
 			</div>
 		</div>
@@ -1134,7 +1102,7 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 
 
 
- 
+
 	<script type="text/javascript">
 		$(document).ready(function() {
 			if ($(window).width() > 767) {
@@ -1154,7 +1122,7 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 							$('.crumina-heading, .intro-inner .left a').addClass('animated fadeInLeft delay-1s');
 							$('.intro-inner .right').addClass('animated fadeInRight delay-2s');
 
-						}	
+						}
 
 					},
 					afterLoad: function(anchorLink, index){
