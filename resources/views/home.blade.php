@@ -288,9 +288,7 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 		<div class="header-content-wrapper">
 			<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/" class="site-logo">
 				<h3 class="link--with-decoration textshadow1">SINDIKAT</h3>
-
 			</a>
-
 			<a href="#" class="open-main-menu js-open-aside">
 				<span></span>
 				<span></span>
@@ -367,7 +365,6 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 				</ul>
 
 				<ul class="sub-menu visible-xs">
-
 					<li class="overlay-menu-item c-grey-light">
 						<a href="https://web.archive.org/web/20200814041949/http://sindikat.co.id/panduan/perseroan-terbatas">Badan Usaha PT</a>
 					</li>
@@ -882,7 +879,7 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 	</section>
 	</div>
 </div>
-	<div>
+	{{-- <div>
 		<div class="me-intro-samping fixed hidden-xs">
 			<div class="me-block animated slideInRight slow delay-15">
 					<img src="/assets/img/c-samping-c.png" alt="whatsapp button sindikat">
@@ -895,7 +892,7 @@ __wm.bt(675,27,25,2,"web","http://sindikat.co.id/","20200814041949",1996,"/_stat
 				</a>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 	<div>
 		<div class="me-intro-bawah-wa fixed visible-xs">

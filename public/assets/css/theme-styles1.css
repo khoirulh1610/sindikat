@@ -1229,7 +1229,7 @@ body.crumina-grid .kc_col-of-5 {
 }
 @media (min-width: 1500px) {
   .container {
-    width: 1440px;
+    width: 1610px;
   }
 }
 .container-fluid {
@@ -5828,7 +5828,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
 }
 #section2 .intro .intro-inner {
   position: relative;
-  padding-top: 35vh;
+  padding-top: 30vh;
 }
 #section2 .intro .intro-inner a {
   animation-delay: 1.2s;
