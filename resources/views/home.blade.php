@@ -916,10 +916,8 @@ memberikan informasi, siasat dan layanan untuk pengembangan usaha Anda. <strong>
 
 	<div>
 		<div class="me-intro-samping fixed hidden-xs">
-			<div class="me-block animated slideInRight slow delay-15">
-				
-					<img src="/assets/img/c-samping-c.png" alt="whatsapp button sindikat">
-				
+			<div class="me-block animated slideInRight slow delay-15">				
+					<img src="/assets/img/c-samping-c.png" alt="whatsapp button sindikat">				
 			</div>
 		</div>
 		<div class="me-intro-get fixed hidden-xs">
