@@ -5929,7 +5929,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
   height: 100%;
   background-image: url("/assets/img/background-c.jpg");
   padding: 6% 0 0 0;
-  /* opacity: 0.1; */
+  opacity: 0.1;
   filter: alpha(opacity=10);
 }
 
