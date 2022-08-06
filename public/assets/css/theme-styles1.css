@@ -1229,7 +1229,7 @@ body.crumina-grid .kc_col-of-5 {
 }
 @media (min-width: 1500px) {
   .container {
-    width: 1610px;
+    width: auto;
   }
 }
 .container-fluid {
