@@ -21,3 +21,19 @@ Route::get('/', function () {
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/blog/{url}', [BlogController::class, 'detail'])->name('blog.detail');
+
+Route::get('/{slug}/{url}', function ($slug,$url) {
+    if(View::exists($slug.'.'.$url)){
+        return view($slug.'.'.$url);
+    }else{
+        return view('404', compact('url'));
+    }
+});
+
+Route::get('/{url}', function ($url) {
+    if(View::exists('page.'.$url)){
+        return view('page.'.$url);
+    }else{
+        return view('404', compact('url'));
+    }
+});

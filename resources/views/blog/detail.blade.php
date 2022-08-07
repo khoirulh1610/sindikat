@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
+@section('css')
+	<link rel="stylesheet" href="{{ asset('css/css_blog.css') }}">
+@endsection
+
 @section('content')
+<style>
+
+</style>
 <div class="main-content-wrapper">
 
 	<section>

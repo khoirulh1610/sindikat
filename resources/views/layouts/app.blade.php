@@ -36,7 +36,8 @@
 
 	<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/animate.min.css">
-	<link rel="stylesheet" href="/assets/css/css_custom.css">
+	<!-- <link rel="stylesheet" href="/assets/css/css_custom.css"> -->
+	@yield('css')
 </head>
 
 
@@ -293,7 +294,7 @@
 				<ul class="sub-menu hidden-xs">
 					<h3 class="uppercase align-left mb0 link--with-decoration">Cashback 500ribu</h3>
 					<h4 class="uppercase align-left mb30">Untuk pelunasan dimuka</h4>
-					<a href="/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Hubungi Kami</a>
+					<a href="/page/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Hubungi Kami</a>
 					<!--
 					<li class="overlay-menu-item c-grey-light hidden-xs">
 						<div class="me-block"><img src="http://sindikat.co.id/assets/img/-2.png" alt="agen sindikat"></div>
@@ -409,27 +410,27 @@
 
 				<ul class="sub-menu visible-xs">
 					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/jasa-lapor-pajak">Jasa Lapor Pajak</a>
+						<a href="/page/jasa-lapor-pajak">Jasa Lapor Pajak</a>
 					</li>
 					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/jasa-akuntansi">Jasa Akuntansi</a>
-					</li>
-
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/pembuatan/pembuatan-perseroan-terbatas-pt">Pendirian PT</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/pembuatan/pembuatan-cv">Pendirian CV</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/pt-pma-foreign-owned-company">PT PMA</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/perizinan">Perizinan</a>
+						<a href="/page/jasa-akuntansi">Jasa Akuntansi</a>
 					</li>
 
 					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/virtual-office">Virtual Office</a>
+						<a href="/page/pembuatan/pembuatan-perseroan-terbatas-pt">Pendirian PT</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light visible-xs">
+						<a href="/page/pembuatan/pembuatan-cv">Pendirian CV</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light visible-xs">
+						<a href="/page/pt-pma-foreign-owned-company">PT PMA</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light visible-xs">
+						<a href="/page/perizinan">Perizinan</a>
+					</li>
+
+					<li class="overlay-menu-item c-grey-light visible-xs">
+						<a href="/page/virtual-office">Virtual Office</a>
 					</li>
 				</ul>
 
@@ -441,10 +442,10 @@
 				<ul class="sub-menu hidden-xs">
 					<h5 class="uppercase align-left">Kenapa Sindikat?</h5>
 					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/tentang-kami" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Personel</a>
+						<a href="/page/tentang-kami" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Personel</a>
 					</li>
 					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/testimoni" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Testimoni</a>
+						<a href="/page/testimoni" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Testimoni</a>
 					</li>
 					<li class="overlay-menu-item c-grey-light hidden-xs">
 						<div class="me-block"><img src="/assets/img/-3-res-.png" alt="agen sindikat 2"></div>
@@ -453,10 +454,10 @@
 				</ul>
 				<ul class="sub-menu visible-xs">
 					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/tentang-kami">Personel</a>
+						<a href="/page/tentang-kami">Personel</a>
 					</li>
 					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/testimoni">Testimoni</a>
+						<a href="/page/testimoni">Testimoni</a>
 					</li>
 				</ul>
 			</li>
@@ -464,29 +465,17 @@
 				<a href="#"><span class="link--with-decoration">Channel</span></a>
 				<ul class="sub-menu sub-menu-bottom">
 					<li class="overlay-menu-item  hidden-xs">
-
-
-
-									<h5 class="uppercase align-left">Bincang Bisnis</h5>
-									<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
-									<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
-
-									<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Lihat Siaran</a>
-
-
+							<h5 class="uppercase align-left">Bincang Bisnis</h5>
+							<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
+							<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
+							<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Lihat Siaran</a>
 					</li>
 					<li class="overlay-menu-item c-grey-light widget visible-xs">
-
-
-
-									<h5 class="uppercase mt30">Bincang Bisnis</h5>
-									<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
-									<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
-									<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30">Lihat Siaran</a>
-
-
+							<h5 class="uppercase mt30">Bincang Bisnis</h5>
+							<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
+							<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
+							<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30">Lihat Siaran</a>
 					</li>
-
 				</ul>
 			</li>
 			<li class="overlay-menu-item c-grey-light">
