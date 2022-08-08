@@ -821,24 +821,3 @@ var CRUMINA = {};
 
 
 }
-/*
-     FILE ARCHIVED ON 06:40:35 Jun 13, 2020 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:00:21 Aug 05, 2022.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 1100.504
-  exclusion.robots: 0.151
-  exclusion.robots.policy: 0.138
-  RedisCDXSource: 1.568
-  esindex: 0.013
-  LoadShardBlock: 1076.735 (3)
-  PetaboxLoader3.datanode: 87.219 (4)
-  CDXLines.iter: 19.196 (3)
-  PetaboxLoader3.resolve: 58.226 (2)
-  load_resource: 75.85
-*/

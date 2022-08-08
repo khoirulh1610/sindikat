@@ -788,10 +788,11 @@
 
 <script src="/assets/js/method-assign.js"></script>
 
-{{-- <script src="/assets/js/jquery-3.4.1.min.js"></script> --}}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="/assets/js/jquery-3.4.1.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="/assets/js/ajax-pagination.js"></script>
+<!-- <script src="/assets/js/ajax-pagination.js"></script> -->
 <script src="/assets/js/bootstrap.js"></script>
 <script src="/assets/js/bootstrap-datepicker.js"></script>
 <script src="/assets/js/Headroom.js"></script>
@@ -809,18 +810,20 @@
 <script src="/assets/js/material.min.js"></script>
 
 <!-- <script src="/assets/js/perfect-scrollbar.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.5/perfect-scrollbar.min.js" integrity="sha512-X41/A5OSxoi5uqtS6Krhqz8QyyD8E/ZbN7B4IaBSgqPLRbWVuXJXr9UwOujstj71SoVxh5vxgy7kmtd17xrJRw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script src="/assets/js/popper.min.js"></script>
 <script src="/assets/js/select2.js"></script>
 <script src="/assets/js/svgxuse.js"></script>
 <script src="/assets/js/swiper.min.js"></script>
-<script src="/assets/js/waypoints.js"></script>
+<!-- <script src="/assets/js/waypoints.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.js" integrity="sha512-ics0TbLy9YV5Mb6jY3AWg+yjIPE+Kp5lZIH1xLPJKMDEeyR9+Y46fXzmWDdGTsuLh5+1FZZ41vPzd1ykoZtLDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="/assets/js/leaflet.js"></script>
 <script src="/assets/js/MarkerClusterGroup.js"></script>
 <script src="/assets/js/ion.rangeSlider.js"></script>
 <script src="/assets/js/main-global.js"></script>
 <script src="/assets/js/jquery.validate.min.js"></script>
 <script src="/assets/js/sweetalert2.all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.0.1/perfect-scrollbar.min.js" integrity="sha512-r5O/1pg7f4zywygu1EKevvhbX3oGsERLakK5IvztJbue0z5H4mWaevAn7Sy0ZFgc7lnFHBomHS5hABLehgdl/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="/assets/js/scripts.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -850,7 +853,7 @@
 						}
 					}
 				});
-				$('.pp-tableCell>.intro').perfectScrollbar({wheelPropagation: true});
+				// $('.pp-tableCell>.intro').perfectScrollbar({wheelPropagation: true});
 			}
 		});
 	</script>
