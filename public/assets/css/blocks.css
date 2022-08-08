@@ -762,7 +762,7 @@ a:active {
 .link--with-decoration:after {
   content: "";
   display: block;
-  border-radius: 30px;
+  border-radius: 10px;
   left: 50%;
   transform: translate(-50%, 0);
   bottom: 0;
@@ -776,13 +776,16 @@ a:active {
 }
 .link--with-decoration:hover {
   color: #666d7a;
+  border-radius: 10px;
 }
 .link--with-decoration:hover .woox-icon {
   fill: #666d7a;
+  border-radius: 10px;
 }
 .link--with-decoration:hover:after {
   bottom: -7px;
   height: 5px;
+  border-radius: 10px;
 }
 
 .link--with-decoration {
@@ -798,7 +801,7 @@ a:active {
 .link--with-decoration:after {
   content: "";
   display: block;
-  border-radius: 30px;
+  border-radius: 10px;
   left: 50%;
   transform: translate(-50%, 0);
   bottom: 0;
@@ -3729,7 +3732,7 @@ select:disabled, .select2:disabled {
 .accordion-heading .icons .woox-icon {
   height: 17px;
   width: 17px;
-  fill: #c3c9d4;
+  fill: #000;
 }
 .accordion-heading .icons .active {
   opacity: 0;

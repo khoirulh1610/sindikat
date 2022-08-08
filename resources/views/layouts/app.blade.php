@@ -295,11 +295,11 @@
 					<h3 class="uppercase align-left mb0 link--with-decoration">Cashback 500ribu</h3>
 					<h4 class="uppercase align-left mb30">Untuk pelunasan dimuka</h4>
 					<a href="/page/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Hubungi Kami</a>
-					<!--
+					
 					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<div class="me-block"><img src="http://sindikat.co.id/assets/img/-2.png" alt="agen sindikat"></div>
+						<div class="me-block"><img src="/assets/img/orang2.png" alt="agen sindikat"></div>
 					</li>
-				-->
+				
 
 				</ul>
 				<ul class="sub-menu visible-xs">
@@ -714,7 +714,7 @@
 	</div>
 </footer> -->
 
-<footer id="paling-bawah" class="hidden-xs">
+<footer id="paling-bawah" class="hidden-xs border-top">
 	<div class="container">
 		<div class="no-padding">
 			<!-- <div class="masthead full60 hidden-xs" style="background-image:url(https://webster.divasoft.net/assets/img/bg_me4.png)!important;bottom:0;opacity:.4;position:absolute;top:0;left:0;width:100%;background-size:auto 120%;"></div> -->
