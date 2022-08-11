@@ -8,13 +8,13 @@
 	<meta name="csrf-token" content="sLTneSzPKUDiXXEQuQl2oblIhIMfidJinBlUqL1j">
 	<meta itemprop="name" content="Sindikat">
 	<meta itemprop="description" content="Sindikat adalah portal bisnis dan usaha paling lengkap dan terupdate | Panduan kami dapat membantu pengembangan badan usaha | Baca selengkapnya...">
-	<meta itemprop="image" content="/web/20200814041949im_/http://sindikat.co.id/">
-	<link href="/assets/img/favicon.ico" rel="shortcut icon">
+	<meta itemprop="image" content=http://sindikat.co.id/">
+	<link href="favicon.ico" rel="shortcut icon">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Sindikat">
 	<meta name="twitter:description" content="Sindikat adalah portal bisnis dan usaha paling lengkap dan terupdate | Panduan kami dapat membantu pengembangan badan usaha | Baca selengkapnya...">
-	<meta name="twitter:image" content="/web/20200814041949im_/http://sindikat.co.id/">
+	<meta name="twitter:image" content=http://sindikat.co.id/">
 	<meta name="description" content="Sindikat adalah portal bisnis dan usaha paling lengkap dan terupdate | Panduan kami dapat membantu pengembangan badan usaha | Baca selengkapnya...">
 	<meta name="content" content="Sindikat adalah portal bisnis dan usaha paling lengkap dan terupdate | Panduan kami dapat membantu pengembangan badan usaha | Baca selengkapnya...">
 	<meta name="keywords" content="">
@@ -36,7 +36,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/animate.min.css">
-	<!-- <link rel="stylesheet" href="/assets/css/css_custom.css"> -->
+	<link rel="stylesheet" href="/assets/css/css_custom.css">
 	@yield('css')
 </head>
 
@@ -286,345 +286,74 @@
 	</a>
 	<div class="perfect-scroll">
 		<nav class="overlay-menu">
-		<ul class="overlay-menu-list">
-
-
+		<ul class="overlay-menu-list align-left">
 			<li class="overlay-menu-item c-grey-light">
-				<a href="#"><span class="">Promo</span></a>
-				<ul class="sub-menu hidden-xs">
-					<h3 class="uppercase align-left mb0 link--with-decoration">Cashback 500ribu</h3>
-					<h4 class="uppercase align-left mb30">Untuk pelunasan dimuka</h4>
-					<a href="/page/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Hubungi Kami</a>
-					
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<div class="me-block"><img src="/assets/img/orang2.png" alt="agen sindikat"></div>
-					</li>
-				
-
-				</ul>
-				<ul class="sub-menu visible-xs">
-					<h5 class="uppercase mb0 link--with-decoration mt30">Special Cashback</h5>
-					<h6 class="uppercase mb30">Untuk pelunasan dimuka</h6>
-					<a href="/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width">Hubungi Kami</a>
-				</ul>
-			</li>
-
-			<li class="overlay-menu-item c-grey-light">
-				<a href="#">Panduan Bisnis</a>
-				<ul class="sub-menu hidden-xs">
-					<h5 class="uppercase align-left">Baca Panduannya!</h5>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/perseroan-terbatas" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Badan Usaha PT</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/cv-comanditer-venotschaap" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Badan Usaha CV</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/pajak-perusahaan" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Perpajakan</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/pembukuan-perusahaan" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Pembukuan</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/gaji-umr" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Gaji &amp; UMR</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/merek" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Perlindungan Merek</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/jaminan-kesehatan" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Jaminan Kesehatan</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/jaminan-tenaga-kerja" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Jaminan Tenaga Kerja</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/panduan/oss-nib" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">OSS &amp; NIB</a>
-					</li>
-
-				</ul>
-
-				<ul class="sub-menu visible-xs">
-					<li class="overlay-menu-item c-grey-light">
-						<a href="/panduan/perseroan-terbatas">Badan Usaha PT</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light">
-						<a href="/panduan/cv-comanditer-venotschaap">Badan Usaha CV</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light">
-						<a href="/panduan/pajak-perusahaan">Perpajakan</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light">
-						<a href="/panduan/pembukuan-perusahaan">Pembukuan</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light">
-						<a href="/panduan/gaji-umr">Gaji &amp; UMR</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light">
-						<a href="/panduan/merek">Perlindungan Merek</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light">
-						<a href="/panduan/jaminan-kesehatan">Jaminan Kesehatan</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light">
-						<a href="/panduan/jaminan-tenaga-kerja">Jaminan Tenaga Kerja</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light mb30">
-						<a href="/panduan/oss-nib">OSS &amp; NIB</a>
-					</li>
-				</ul>
-
-
-
-			</li>
-
-
-			<li class="overlay-menu-item c-grey-light">
-				<a href="#">Layanan</a>
-				<ul class="sub-menu hidden-xs">
-					<h5 class="uppercase align-left">Kami menawarkan!</h5>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/jasa-lapor-pajak" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Jasa Lapor Pajak</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/jasa-Akuntansi" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Jasa Akuntansi</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/pembuatan/pembuatan-perseroan-terbatas-pt" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Jasa Pendirian PT</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/pembuatan/pembuatan-cv" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Jasa Pendirian CV</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/pt-pma-foreign-owned-company" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">PT PMA</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/perizinan" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Urus Perizinan</a>
-					</li>
-
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/virtual-office" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Virtual Office</a>
-					</li>
-
-
-				</ul>
-
-				<ul class="sub-menu visible-xs">
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/jasa-lapor-pajak">Jasa Lapor Pajak</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/jasa-akuntansi">Jasa Akuntansi</a>
-					</li>
-
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/pembuatan/pembuatan-perseroan-terbatas-pt">Pendirian PT</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/pembuatan/pembuatan-cv">Pendirian CV</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/pt-pma-foreign-owned-company">PT PMA</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/perizinan">Perizinan</a>
-					</li>
-
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/virtual-office">Virtual Office</a>
-					</li>
-				</ul>
-
-
-
-			</li>
-			<li class="overlay-menu-item c-grey-light">
-				<a href="#">Tentang</a>
-				<ul class="sub-menu hidden-xs">
-					<h5 class="uppercase align-left">Kenapa Sindikat?</h5>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/page/tentang-kami" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Personel</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<a href="/page/testimoni" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Testimoni</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-						<div class="me-block"><img src="/assets/img/-3-res-.png" alt="agen sindikat 2"></div>
-					</li>
-
-				</ul>
-				<ul class="sub-menu visible-xs">
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/tentang-kami">Personel</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light visible-xs">
-						<a href="/page/testimoni">Testimoni</a>
-					</li>
-				</ul>
-			</li>
-			<li class="overlay-menu-item c-grey-light">
-				<a href="#"><span class="link--with-decoration">Channel</span></a>
-				<ul class="sub-menu sub-menu-bottom">
-					<li class="overlay-menu-item  hidden-xs">
-							<h5 class="uppercase align-left">Bincang Bisnis</h5>
-							<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
-							<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
-							<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Lihat Siaran</a>
-					</li>
-					<li class="overlay-menu-item c-grey-light widget visible-xs">
-							<h5 class="uppercase mt30">Bincang Bisnis</h5>
-							<img src="/assets/img/spotify1-.png" class="mt30" alt="spotify sindikat">
-							<img src="/assets/img/yt-c-.png" class="" alt="youtube sindikat">
-							<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30">Lihat Siaran</a>
-					</li>
-				</ul>
-			</li>
-			<li class="overlay-menu-item c-grey-light">
-				<a href="#">KBLI 2017</a>
-				<ul class="sub-menu sub-menu-bottom">
-					<li class="overlay-menu-item  hidden-xs">
-
-
-
-									<h5 class="uppercase align-left">Cek Kode KBLI 2017</h5>
-									<img src="/assets/img/kbli-2017-res.jpg" class="mt30" alt="kbli 2017">
-
-
-									<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width  align-left">Lihat KBLI</a>
-
-
-					</li>
-					<li class="overlay-menu-item c-grey-light widget visible-xs">
-
-
-
-									<h5 class="uppercase align-left mt30">Cek Kode KBLI 2017</h5>
-									<img src="/assets/img/kbli-2017-res.jpg" class="mt30" alt="kbli 2017">
-
-
-									<a href="#" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30">Lihat KBLI</a>
-
-
-					</li>
-
-				</ul>
-			</li>
-			<li class="overlay-menu-item c-grey-light">
-				<a href="#">Zonasi</a>
-				<ul class="sub-menu sub-menu-bottom">
-
-					<li class="overlay-menu-item  hidden-xs">
-									<h5 class="uppercase align-left">Cek Zonasi Jakarta!</h5>
-									<img src="/assets/img/zonasi-c.png" class="mt30" alt="zonasi jakarta">
-
-
-									<a href="/zonasi" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Lihat Zonasi</a>
-
-
-					</li>
-
-					<li class="overlay-menu-item visible-xs">
-
-
-
-
-									<img src="/assets/img/zonasi-c.png" class="mb0" alt="zonasi jakarta">
-
-
-									<a href="/zonasi" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30">Lihat Zonasi</a>
-
-
-					</li>
-
-
-				</ul>
-			</li>
-			<li class="overlay-menu-item c-grey-light">
-				<a href="#">Kamus Hukum</a>
-				<ul class="sub-menu sub-menu-bottom">
-					<li class="overlay-menu-item  hidden-xs">
-
-
-
-									<h5 class="uppercase align-left mb30">Cek Istilah Hukum!</h5>
-									<h6 class="uppercase mb30">Lebih dari 11.000 istilah hukum</h6>
-
-
-
-									<a href="/kamus-hukum" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width  align-left">Lihat Kamus Hukum</a>
-
-
-					</li>
-					<li class="overlay-menu-item c-grey-light widget visible-xs">
-
-
-
-									<h5 class="uppercase align-left mt30">Cek Istilah Hukum!</h5>
-									<h6 class="uppercase mb30">Lebih dari 11.000 istilah hukum</h6>
-
-
-									<a href="/kamus-hukum" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width mb30"> Lihat Kamus Hukum</a>
-
-
-					</li>
-
-				</ul>
-			</li>
-			<li class="overlay-menu-item c-grey-light">
-				<a href="#">Blog</a>
+				<a href="#"><strong>Badan Usaha</strong></a>
 				<ul class="sub-menu">
-
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-
-
-									<div class="me-block"><img src="/assets/-4.png" alt="agen sindikat 4"></div>
-
-
-									<a href="/blog" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Baca Blog</a>
+					<h5 class="uppercase align-left hidden-xs">Pilih Layanan</h5>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/badan-usaha/pt" class="full-width align-left bg-green">Pembuatan PT</a>
 					</li>
-					<li class="overlay-menu-item visible-xs">
-
-
-
-
-									<h5 class="uppercase mt30 mb30">Panduan lengkap &amp; Artikel terbaru</h5>
-
-
-									<a href="/blog" class="btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width">Baca Blog</a>
-
-
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/badan-usaha/pt-perorangan" class="full-width align-left bg-green">Pembuatan PT Perorangan</a>
 					</li>
-
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/badan-usaha/cv" class="full-width align-left bg-green">Pendirian CV</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/badan-usaha/pt-pma" class="full-width align-left bg-green">Pembuatan PT PMA</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/badan-usaha/firma" class="full-width align-left bg-green">Pembuatan Firma</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/badan-usaha/perkumpulan" class="full-width align-left bg-green">Pembuatan Perkumpulan</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/badan-usaha/perkumpulan" class="full-width align-left bg-green">Pembuatan Yayasan</a>
+					</li>
 				</ul>
 			</li>
 			<li class="overlay-menu-item c-grey-light">
-				<a href="#">Hubungi Kami</a>
+				<a href="#"><strong>Perizinan</strong></a>
 				<ul class="sub-menu">
-
-					<li class="overlay-menu-item c-grey-light hidden-xs">
-
-						<div class="me-block"><img src="/assets/img/-2-res-.png" alt="agen sindikat 6"></div>
-
-						<a href="/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width align-left">Hubungi Kami</a>
-
+					<h5 class="uppercase align-left hidden-xs">Pilih Layanan</h5>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/jasa-lapor-pajak" class="full-width align-left bg-green">Lorem</a>
 					</li>
-
-					<li class="overlay-menu-item c-grey-light visible-xs">
-
-
-						<p class="c-secondary">Jl. H. Kelik, Ruko Permata Regency D/37 Kembangan <br>Jakarta Barat 11630 <br>
-							<br>
-						<strong>P / WA: </strong>0811-899-895 <br>
-						<strong>E: </strong>info@sindikat.co.id <br>
-						<strong>W: </strong>www.sindikat.co.id
-						</p>
-						<a href="/hubungi-kami" class="mb30 btn btn--medium btn--secondary btn--transparent btn--hover-decoration btn--with-icon btn--icon-right full-width">Hubungi Kami</a>
-
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/jasa-Akuntansi" class="full-width align-left bg-green">Lorem</a>
 					</li>
-
-
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/jasa-Akuntansi" class="full-width align-left bg-green">Lorem</a>
+					</li>
 				</ul>
 			</li>
-			<li class="overlay-menu-item"><a href="/penawaran" class=" mt30 btn btn--x-large btn--primary">Minta Penawaran</a>
+			<li class="overlay-menu-item c-grey-light">
+				<a href="#"><strong>Peralatan</strong></a>
+				<ul class="sub-menu">
+					<h5 class="uppercase align-left hidden-xs">Pilih Peralatan</h5>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/kamus-hukum" class="full-width align-left bg-green">Kamus Hukum IND-ENG</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/istilah-hukum" class="full-width align-left bg-green">Kamus Istilah Hukum</a>
+					</li>
+					<li class="overlay-menu-item c-grey-light ">
+						<a href="/kbli-terbaru" class="full-width align-left bg-green">KBLI 2020</a>
+					</li>
+				</ul>
+			</li>
+			<li class="overlay-menu-item c-grey-light">
+				<a href="/tentang-kami"><strong>Tentang Kami</strong></a>
+			</li>
+			<li class="overlay-menu-item c-grey-light">
+				<a href="/siasat"><strong>Siasat</strong></a>
+			</li>
+			<li class="overlay-menu-item c-grey-light">
+				<a href="/hubungi-kami"><strong>Hubungi Kami</strong></a>
+			</li>
+			<li class="overlay-menu-item mt-3"><a href="/penawaran" class="bg-blue text-white display-inline p-2"><strong>Minta Penawaran</strong></a>
 			</li>
 
 		</ul>
@@ -716,18 +445,18 @@
 
 <footer id="paling-bawah" class="hidden-xs border-top">
 	<div class="container">
-		<div class="no-padding">
+		<div class="no-padding mt-1">
 			<!-- <div class="masthead full60 hidden-xs" style="background-image:url(https://webster.divasoft.net/assets/img/bg_me4.png)!important;bottom:0;opacity:.4;position:absolute;top:0;left:0;width:100%;background-size:auto 120%;"></div> -->
 			<div class="row">
-				<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+				<div class="col-lg-5 col-md-8 col-sm-12 col-xs-12">
 					<div class="copyright-wrapper">
 							<div>
-								<span>PT Biro Sindikat Bersaudara | 2020.</span>
-								<span><a href="/syarat-dan-ketentuan" class="c-black"><br>Syarat &amp; Ketentuan</a> | <a href="/kebijakan-privasi" class="c-black">Kebijakan Privasi</a></span>
+								<span>PT Biro Sindikat Bersaudara | 2015 - 2022</span>
+								<span><a href="/syarat-ketentuan" class="c-black line"><br>Syarat & Ketentuan</a> | <a href="/kebijakan-privasi" class="c-black line">Kebijakan Privasi</a> </span>
 							</div>
 						</div>
 				</div>
-				<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 align-right">
+				<div class="col-lg-7 col-md-4 col-sm-12 col-xs-12 align-right">
 					<div class="widget w-contacts">
 
 
@@ -748,22 +477,34 @@
 
 <footer id="site-footer" class="home-footer visible-xs">
 	<div class="container">
+	<div class="cover-slide3 mb60">
+				<div class="contents-inner">
+					<h2 class="uppercase align-center heading">Hubungi Kami</h2>
+				</div>
+			</div>
 		<div class="footer visible-xs">
+			
 			<div class="sub-footer no-padding">
 				<div class="row">
-					<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+					
+					<div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
 						<div class="widget w-contacts">
-							<h4 class="mb30 uppercase link--with-decoration mt30">kontak</h4>
+							<!-- <h4 class="mb30 uppercase link--with-decoration mt30">kontak</h4> -->
 							<strong>
-							<p class="c-black">Jl. H. Kelik, Ruko Permata Regency D/37 <br>Kembangan Jakarta Barat 11630</p>
-							<p class="c-black">P /WA: 0811-899-895</p>
-							<p class="c-black">E: <a href="#" class="">info@sindikat.co.id</a></p>
+							<div class="bg-gray pb-0 mb-4">
+								<p class="c-black">Menara Cakrawala 12th FL/1205A <br>Thamrin Jakarta Pusat 10340 <br><a href="#" class="line">Google Maps</a>
+								</p>
+								
+								<p class="c-black">
+									Ph/WA: <a href="#" class="line">0811-899-895</a> <br>
+									E: <a href="#" class="line">info@sindikat.co.id</a></p>
+							</div>
 							</strong>
 						</div>
 						<div class="copyright-wrapper">
 								<div>
-									<span>PT Biro Sindikat Bersaudara | 2020.</span>
-									<span><a href="/index.html" class="">Syarat &amp; Ketentuan</a> | <a href="/index.html" class="">Kebijakan Privasi</a></span>
+									<span class="c-black">PT Biro Sindikat Bersaudara </span>
+									<span><a href="/syarat-ketentuan" class="line">Syarat & Ketentuan</a> | <a href="kebijakan-privasi" class="line">Kebijakan Privasi</a> <strong>2015 - 2022</strong></span>
 								</div>
 							</div>
 					</div>
@@ -786,13 +527,8 @@
 <!-- ... end Footer -->
 
 
-<script src="/assets/js/method-assign.js"></script>
-
-<!-- <script src="/assets/js/jquery-3.4.1.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+{{-- <script src="/assets/js/method-assign.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- <script src="/assets/js/ajax-pagination.js"></script> -->
 <script src="/assets/js/bootstrap.js"></script>
 <script src="/assets/js/bootstrap-datepicker.js"></script>
 <script src="/assets/js/Headroom.js"></script>
@@ -803,34 +539,75 @@
 <script src="/assets/js/jquery.matchHeight.js"></script>
 <script src="/assets/js/jquery-circle-progress.js"></script>
 <script src="/assets/js/jquery-countTo.js"></script>
-
-<!-- <script src="/assets/js/jquery.pagepiling.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js" integrity="sha512-FcXc9c211aHVJEHxoj2fNFeT8+wUESf/4mUDIR7c31ccLF3Y6m+n+Wsoq4dp2sCnEEDVmjhuXX6TfYNJO6AG6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 <script src="/assets/js/material.min.js"></script>
-
-<!-- <script src="/assets/js/perfect-scrollbar.js"></script> -->
-
 <script src="/assets/js/popper.min.js"></script>
 <script src="/assets/js/select2.js"></script>
 <script src="/assets/js/svgxuse.js"></script>
 <script src="/assets/js/swiper.min.js"></script>
-<!-- <script src="/assets/js/waypoints.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.js" integrity="sha512-ics0TbLy9YV5Mb6jY3AWg+yjIPE+Kp5lZIH1xLPJKMDEeyR9+Y46fXzmWDdGTsuLh5+1FZZ41vPzd1ykoZtLDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="/assets/js/leaflet.js"></script>
+<script src="/assets/js/js-plugins/leaflet.js"></script>
 <script src="/assets/js/MarkerClusterGroup.js"></script>
 <script src="/assets/js/ion.rangeSlider.js"></script>
 <script src="/assets/js/main-global.js"></script>
 <script src="/assets/js/jquery.validate.min.js"></script>
 <script src="/assets/js/sweetalert2.all.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.0.1/perfect-scrollbar.min.js" integrity="sha512-r5O/1pg7f4zywygu1EKevvhbX3oGsERLakK5IvztJbue0z5H4mWaevAn7Sy0ZFgc7lnFHBomHS5hABLehgdl/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="/assets/js/scripts.js"></script>
-	<script type="text/javascript">
+<script src="/assets/js/scripts.js"></script> --}}
+
+<script src="/assets/js/method-assign.js"></script>
+
+<!-- jQuery first, then Other JS. -->
+
+<script src="/assets/js/jquery-3.3.1.js"></script>
+
+<script src="/assets/js/js-plugins/ajax-pagination.js"></script>
+<script src="/assets/js/js-plugins/bootstrap.js"></script>
+<script src="/assets/js/js-plugins/bootstrap-datepicker.js"></script>
+<script src="/assets/js/js-plugins/Headroom.js"></script>
+<script src="/assets/js/js-plugins/imagesLoaded.js"></script>
+<script src="/assets/js/js-plugins/isotope.pkgd.min.js"></script>
+<script src="/assets/js/js-plugins/jquery.datetimepicker.full.js"></script>
+<script src="/assets/js/js-plugins/jquery.magnific-popup.js"></script>
+<script src="/assets/js/js-plugins/jquery.matchHeight.js"></script>
+<script src="/assets/js/js-plugins/jquery-circle-progress.js"></script>
+<script src="/assets/js/js-plugins/jquery-countTo.js"></script>
+<script src="/assets/js/js-plugins/material.min.js"></script>
+<script src="/assets/js/js-plugins/parallax.js"></script>
+<script src="/assets/js/js-plugins/particles.js"></script>
+<script src="/assets/js/js-plugins/perfect-scrollbar.js"></script>
+<script src="/assets/js/js-plugins/popper.min.js"></script>
+<script src="/assets/js/js-plugins/select2.js"></script>
+<script src="/assets/js/js-plugins/svgxuse.js"></script>
+<script src="/assets/js/js-plugins/swiper.min.js"></script>
+<script src="/assets/js/js-plugins/waypoints.js"></script>
+<script src="/assets/js/js-plugins/leaflet.js"></script>
+<script src="/assets/js/js-plugins/MarkerClusterGroup.js"></script>
+<script src="/assets/js/js-plugins/ion.rangeSlider.js"></script>
+
+<!-- FontAwesome 5.x.x JS -->
+
+<script defer src="/assets/fonts/fontawesome-all.js"></script>
+
+<script src="/assets/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js" integrity="sha512-FcXc9c211aHVJEHxoj2fNFeT8+wUESf/4mUDIR7c31ccLF3Y6m+n+Wsoq4dp2sCnEEDVmjhuXX6TfYNJO6AG6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{{-- <script src="/assets2/js/main-global.js"></script> --}}
+
+
+<!-- jQuery-scripts for Modules -->
+<script src="/assets/forms/src/js/jquery.validate.min.js"></script>
+<script src="/assets/forms/src/js/sweetalert2.all.js"></script>
+<script src="/assets/forms/src/js/scripts.js"></script>
+
+
+
+
+<script type="text/javascript">
 		$(document).ready(function() {
 			if ($(window).width() > 767) {
 				$('#pagepiling').pagepiling({
 					afterRender: function(anchorLink, index){
-						$('#site-header').addClass('home-nav');
+						$('#site-header').addClass('home-nav hidden-xs hidden-sm');
 						$('.me-intro').addClass('animated fadeInUpBig slow delay-1s');
 						$('.contents-inner h1').addClass('animated rotateInUpLeft delay-2s');
 					},

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\KamusController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +20,14 @@ Route::get('/', function () {
 });
 
 
-Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
-Route::get('/blog/{url}', [BlogController::class, 'detail'])->name('blog.detail');
+Route::get('/siasat', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/siasat/{url}', [BlogController::class, 'detail'])->name('blog.detail');
+Route::get('kamus-hukum',[KamusController::class, 'kamus_hukum'])->name('kamus.hukum');
+Route::get('kamus-hukum/{slug}',[KamusController::class, 'kamus_hukum_detail'])->name('kamus.hukum.detail');
+Route::get('kamus-istilah-hukum',[KamusController::class, 'kamus_istilah_hukum'])->name('kamus.istilah.hukum');
+Route::get('kamus-istilah-hukum/{slug}',[KamusController::class, 'kamus_istilah_hukum_detail'])->name('kamus.hukum.istilah.detail');
+
+Route::get('istilah-hukum',[KamusController::class, 'istilah_hukum'])->name('kamus.istilah_hukum');
 
 Route::get('/{slug}/{url}', function ($slug,$url) {
     if(View::exists($slug.'.'.$url)){
