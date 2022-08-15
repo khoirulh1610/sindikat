@@ -25,21 +25,21 @@
 			$this->button_filter = true;
 			$this->button_import = true;
 			$this->button_export = true;
-			$this->table = "kamus_hukums";
+			$this->table = "kamus";
 			# END CONFIGURATION DO NOT REMOVE THIS LINE
 
 			# START COLUMNS DO NOT REMOVE THIS LINE
 			$this->col = [];
 			$this->col[] = ["label"=>"Indonesia","name"=>"indo"];
-			$this->col[] = ["label"=>"Inggris/Latin/Asing","name"=>"asing"];			
-			$this->col[] = ["label"=>"Keterangan","name"=>"ket"];
+			$this->col[] = ["label"=>"Inggris/Belanda/Latin","name"=>"asing"];			
+			$this->col[] = ["label"=>"Pengertian","name"=>"ket"];
 			# END COLUMNS DO NOT REMOVE THIS LINE
 
 			# START FORM DO NOT REMOVE THIS LINE
 			$this->form = [];
 			$this->form[] = ['label'=>'Indonesia','name'=>'indo','type'=>'textarea','width'=>'col-sm-10'];
-			$this->form[] = ['label'=>'Inggis/Latin/Asing','name'=>'asing','type'=>'textarea','width'=>'col-sm-10'];			
-			$this->form[] = ['label'=>'Keterangan','name'=>'ket','type'=>'textarea','width'=>'col-sm-10'];
+			$this->form[] = ['label'=>'Inggris/Belanda/Latin','name'=>'asing','type'=>'textarea','width'=>'col-sm-10'];			
+			$this->form[] = ['label'=>'Pengertian','name'=>'ket','type'=>'textarea','width'=>'col-sm-10'];
 			# END FORM DO NOT REMOVE THIS LINE
 
 			# OLD START FORM
@@ -256,7 +256,13 @@
 	    */
 	    public function hook_before_add(&$postdata) {        
 	        //Your code here
-
+			$url = $postdata['indo'];
+            $url = str_replace(' ','-',trim($url));
+            $url = preg_replace('/[^a-zA-Z0-9\'-]/','',$url);
+            $url = str_replace('--','-',$url);
+            $url = str_replace('--','-',$url);
+            $url = substr($url,0,75);
+			$postdata['url'] = $url;
 	    }
 
 	    /* 

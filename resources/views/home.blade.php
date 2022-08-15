@@ -18,7 +18,7 @@
 				<div class="intro-inner mt-xs-5">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-4 left">
+							<div class="col-lg-4 col-md-4 left">
 								<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
 									<h2 class="uppercase bg-green mb-3 uppercase">Spesialis Jasa Legalitas</h2>
 									<div class="heading-text mb-3 hidden-xs hidden-sm"><strong>Kenapa kami spesial?</strong></div>
@@ -26,7 +26,7 @@
 								</header>
 
 							</div>
-							<div class="col-lg-4 col-lg-offset-4 right ">
+							<div class="col-lg-4  col-md-4 col-lg-offset-4 col-md-offset-4 right ">
 								<ul class="crumina-module crumina-accordion accordion--style2" id="accordion2">
 									<li class="accordion-panel">
 										<div class="panel-heading">

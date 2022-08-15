@@ -25,23 +25,23 @@
 			$this->button_filter = true;
 			$this->button_import = true;
 			$this->button_export = false;
-			$this->table = "klbi";
+			$this->table = "kbli";
 			# END CONFIGURATION DO NOT REMOVE THIS LINE
 
 			# START COLUMNS DO NOT REMOVE THIS LINE
 			$this->col = [];
-			$this->col[] = ["label"=>"KLBI","name"=>"klbi"];
-			$this->col[] = ["label"=>"Judul","name"=>"judul"];			
-			$this->col[] = ["label"=>"Penjelasan","name"=>"penjelasan"];
-			$this->col[] = ["label"=>"Ruang Lingkup","name"=>"ruang_lingkup"];
+			$this->col[] = ["label"=>"KBLI","name"=>"code"];
+			$this->col[] = ["label"=>"Judul","name"=>"title"];			
+			$this->col[] = ["label"=>"Penjelasan","name"=>"detail"];
+			// $this->col[] = ["label"=>"Ruang Lingkup","name"=>"ruang_lingkup"];
 			# END COLUMNS DO NOT REMOVE THIS LINE
 
 			# START FORM DO NOT REMOVE THIS LINE
 			$this->form = [];
-			$this->form[] = ['label'=>'Judul','name'=>'judul','type'=>'text','validation'=>'required|string|min:3|max:70','width'=>'col-sm-10','placeholder'=>'You can only enter the letter only'];
-			$this->form[] = ['label'=>'KLBI','name'=>'klbi','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
-			$this->form[] = ['label'=>'Penjelasan','name'=>'penjelasan','type'=>'textarea','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
-			$this->form[] = ['label'=>'Ruang Lingkup','name'=>'ruang_lingkup','type'=>'textarea','width'=>'col-sm-10'];
+			$this->form[] = ['label'=>'KBLI','name'=>'code','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
+			$this->form[] = ['label'=>'Judul','name'=>'title','type'=>'text','validation'=>'required|string|min:3|max:70','width'=>'col-sm-10'];			
+			$this->form[] = ['label'=>'Penjelasan','name'=>'detail','type'=>'textarea','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
+			// $this->form[] = ['label'=>'Ruang Lingkup','name'=>'ruang_lingkup','type'=>'textarea','width'=>'col-sm-10'];
 			# END FORM DO NOT REMOVE THIS LINE
 
 			# OLD START FORM

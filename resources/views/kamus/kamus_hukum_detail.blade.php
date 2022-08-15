@@ -44,7 +44,7 @@
 					</div>
 				</div>
 
-				@include('kamus.rsidebar')
+				@include('layouts.rsidebar')
 			</div>
 		</div>
 	</section>

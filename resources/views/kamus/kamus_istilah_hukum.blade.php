@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="cover-slide3">
 				<div class="contents-inner contents-inner-tk">
-					<h1 class="uppercase align-center heading">Kamus Hukum IND-ENG</h1>
+					<h1 class="uppercase align-center heading">Kamus Istilah Hukum</h1>
 				</div>
 			</div>
 			<div class="row medium-padding100">

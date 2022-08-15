@@ -45,18 +45,21 @@
 										@foreach($kamus as $k)
 										<tr>
 											<td>{{$loop->iteration}}</td>
-											<td>
+											<td>												
 												<?php
 													if($keyword){
-														$kuning = "<span style='background-color:yellow'>".$keyword."</span";
-														echo str_replace($keyword,$kuning,$k->indo);
+														$kuning = "<span style='background-color:yellow'>".$keyword."</span>";
+														$kuning2 = "<span style='background-color:yellow'>".ucwords($keyword)."</span>";
+														$text = str_replace($keyword,$kuning,$k->indo);														
+														$text = str_replace(ucwords($keyword),$kuning2,$text);														
+														echo $text;
 													}else{
 														echo $k->indo;
 													}
 												?>
 											</td>											
 											<td> 
-												<a href="{{url('kamus-hukum/'.$k->indo)}}" class="btn btn--secondary">Detail</a>
+												<a href="{{url('kamus-hukum/'.$k->url)}}" class="btn btn--secondary">Detail {{$k->id}}</a>
 											</td>
 										</tr>
 										@endforeach
@@ -72,7 +75,7 @@
 					</div>
 				</div>
 
-				@include('kamus.rsidebar')
+				@include('layouts.rsidebar')
 			</div>
 		</div>
 	</section>

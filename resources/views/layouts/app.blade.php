@@ -34,9 +34,12 @@
     {{-- <link rel="stylesheet" type="text/css" href="/assets/css/jquery.pagepiling.min.css" media="all"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.css" integrity="sha512-W9OWS8dgpQBw5Hb+tbMto1BMsHvYOXT/AFBGvASCPUJleaEdpOAN5lzgj9RrTbo3YrlR+m9xdOBccp8F+SFyQg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+
 	<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/animate.min.css">
 	<link rel="stylesheet" href="/assets/css/css_custom.css">
+	
 	@yield('css')
 </head>
 
@@ -527,6 +530,7 @@
 <!-- ... end Footer -->
 
 
+
 {{-- <script src="/assets/js/method-assign.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="/assets/js/bootstrap.js"></script>
@@ -585,6 +589,7 @@
 <script src="/assets/js/js-plugins/MarkerClusterGroup.js"></script>
 <script src="/assets/js/js-plugins/ion.rangeSlider.js"></script>
 
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 <!-- FontAwesome 5.x.x JS -->
 
 <script defer src="/assets/fonts/fontawesome-all.js"></script>
@@ -598,8 +603,6 @@
 <script src="/assets/forms/src/js/jquery.validate.min.js"></script>
 <script src="/assets/forms/src/js/sweetalert2.all.js"></script>
 <script src="/assets/forms/src/js/scripts.js"></script>
-
-
 
 
 <script type="text/javascript">
@@ -635,6 +638,6 @@
 		});
 	</script>
 
-
+		@yield('js')
 
 </body></html>

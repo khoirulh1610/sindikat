@@ -29,11 +29,12 @@
 							<div class="content">
 								<h3 class="uppercase bg-gray mb-3 uppercase">Pengertian PT</h3>
 								<p class="mb-xs-4">
-								PT atau yang disebut Perseroan terbatas adalah badan usaha Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium amet recusandae expedita, atque corporis, rem laboriosam ducimus id mollitia quis perferendis tempora velit hic rerum cumque minima sit reiciendis voluptatum?
+								PT atau yang disebut Perseroan terbatas adalah badan usaha yang berbentuk badan hukum yang berbentuk persekutuan modal yang didirikan oleh pendiri PT untuk melakukan kegiatan usaha komersial.
 								</p>
+								<p>Ada 2 (dua) macam PT yaitu PT biasa dan PT Perorangan. Disini kami membahas <span class="link--with-decoration">PT biasa</span> yaitu PT yang didirikan oleh 2 (dua) orang, sedangkan pembahasan PT Perorangan <a href="/badan-usaha/pt-perorangan" class="line">lihat disini</a></p>
 								<h3 class="uppercase bg-gray mb-3 uppercase">Dasar Hukum PT</h3>
 								<p class="mb-xs-4">
-								PT atau yang disebut Perseroan terbatas adalah badan usaha Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium amet recusandae expedita, atque corporis, rem laboriosam ducimus id mollitia quis perferendis tempora velit hic rerum cumque minima sit reiciendis voluptatum?
+								Dasar hukum PT adalah UU No 40 tahun 2007 tentang Perseroan Terbatas <a href="https://peraturan.bpk.go.id/Home/Details/39965/uu-no-40-tahun-2007"><span class="line">Download disini</span></a>
 								</p>
 								<h3 class="uppercase bg-gray mb-3 uppercase">Kenapa Memilih PT</h3>
 								<p class="mb-xs-4">
@@ -43,8 +44,8 @@
 						</div>
 						<div class="col-lg-6 right">
 							<div class="content">
-								<div class="align-right hidden-xs">
-									<img src="/assets/img/orang4.png" class="w-75">
+								<div class="align-right hidden-xs" data-aos="fade-left">
+									<img src="/assets/img/orang4.png" class="w-75" >
 								</div>
 							</div>
 						</div>
@@ -161,7 +162,7 @@
 						</div>
 						<div class="col-lg-6 left">
 							<div class="content">
-								<h3 class="uppercase bg-gray mb-3 uppercase mt-5">Persyaratan</h3>
+								<h3 class="uppercase bg-gray mb-3 uppercase mt-xs-3">Persyaratan</h3>
 								<p class="mb-xs-3 text-white">
 								Berikut ini adalah dokumen yang wajib disiapkan dalam proses Pendirian PT:
 								</p>
@@ -188,7 +189,7 @@
 					<h2 class="uppercase align-center heading">Timeline</h2>
 				</div>
 			</div>
-			<div class="row pt120">
+			<div class="row pt-5 mt-5">
 			
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="crumina-module crumina-module-slider time-line-slider sticky-top">
@@ -216,28 +217,28 @@
 
 								<div class="swiper-slide slides-item time-active">
 									<span class="time-line-decoration"></span>
-									<a href="#" class="btn--hover-decoration">Formulir</a>
+									<a href="#" class="btn--hover-decoration">Isi Formulir</a>
 								</div>
 
 								<div class="swiper-slide slides-item">
 									<span class="time-line-decoration"></span>
-									<a href="#" class="btn--hover-decoration">Konsultasi</a>
+									<a href="#" class="btn--hover-decoration">Konsultasi Gratis</a>
 								</div>
 								<div class="swiper-slide slides-item">
 									<span class="time-line-decoration"></span>
-									<a href="#" class="btn--hover-decoration">Panjar</a>
+									<a href="#" class="btn--hover-decoration">Uang Panjar</a>
 								</div>
 								<div class="swiper-slide slides-item">
 									<span class="time-line-decoration"></span>
-									<a href="#" class="btn--hover-decoration">Pekerjaan</a>
+									<a href="#" class="btn--hover-decoration">Pelaksaan Pekerjaan</a>
 								</div>
 								<div class="swiper-slide slides-item">
 									<span class="time-line-decoration"></span>
-									<a href="#" class="btn--hover-decoration">Selesai</a>
+									<a href="#" class="btn--hover-decoration">Mulai Bekerja</a>
 								</div>
 								<div class="swiper-slide slides-item">
 									<span class="time-line-decoration"></span>
-									<a href="#" class="btn--hover-decoration">Pelunasan</a>
+									<a href="#" class="btn--hover-decoration">Pekerjaan Selesai</a>
 								</div>
 
 
@@ -252,156 +253,112 @@
 								<div class="swiper-slide">
 									<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
 										<header class="crumina-module crumina-heading heading--h4">
-											<div class="heading-sup-title text-dark" id="formulir">Tahap <span class="weight-bold">1</span>
-											</div>
-											<h4 class="">Mengisi Formulir</h4>
+											<div class="heading-sup-title text-dark mb-4" id="formulir">Tahap <span class="weight-bold">1</span></div>
+											<h5 class="uppercase bg-gray mb-3 uppercase">Mengisi Formulir</h5>
 											<p>Formulir ini kami susun untuk mempermudah kamu dalam menentukan isian dalam Akta Pendirian PT.</p>
-											<div class="bg-gray" id="zf_div_b-L65ScBwZCmSvwG1izE8eINjtANF95RlbgGOznp9_M"></div>
-											<script type="text/javascript">(function() {
-												try{
-												var f = document.createElement("iframe");   
-												f.src = 'https://forms.zohopublic.com/info4323/form/FormPTSindikat/formperma/b-L65ScBwZCmSvwG1izE8eINjtANF95RlbgGOznp9_M?zf_rszfm=1';
-												f.style.border="none";                                           
-												f.style.height="1444px";
-												f.style.width="100%";
-												f.style.transition="all 0.5s ease";
-												var d = document.getElementById("zf_div_b-L65ScBwZCmSvwG1izE8eINjtANF95RlbgGOznp9_M");
-												d.appendChild(f);
-												window.addEventListener('message', function (){
-												var evntData = event.data;
-												if( evntData && evntData.constructor == String ){
-												var zf_ifrm_data = evntData.split("|");
-												if ( zf_ifrm_data.length == 2 ) {
-												var zf_perma = zf_ifrm_data[0];
-												var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
-												var iframe = document.getElementById("zf_div_b-L65ScBwZCmSvwG1izE8eINjtANF95RlbgGOznp9_M").getElementsByTagName("iframe")[0];
-												if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
-												var prevIframeHeight = iframe.style.height;
-												if ( prevIframeHeight != zf_ifrm_ht_nw ) {
-												iframe.style.height = zf_ifrm_ht_nw;
-												}   
-												}
-												}
-												}
-												}, false);
-												}catch(e){}
-												})();
-											</script>
+											<!-- form desktop -->
+											<ul class="crumina-module crumina-accordion accordion--style2" id="accordion">
+												<li class="accordion-panel">
+													<div class="panel-heading active">
+														<a href="#toggleSample" class="accordion-heading" data-toggle="collapse" data-parent="#accordion" aria-expanded="true">
+															<span class="icons">
+																<svg class="woox-icon icon-arrow-bottom"><use xlink:href="#icon-arrow-bottom"></use></svg>
+															</span>
+															<span class="title text-dark align-lefft">Lihat Formulir</span>
+														</a>
+													</div>
+
+													<div id="toggleSample" class="panel-collapse collapse p-0" aria-expanded="true" role="tree" style="">
+														<div class="panel-info">
+														<div class="mt-4 p-0" id="zf_div_b-L65ScBwZCmSvwG1izE8eINjtANF95RlbgGOznp9_M"></div>
+														<script type="text/javascript">(function() {
+															try{
+															var f = document.createElement("iframe");   
+															f.src = 'https://forms.zohopublic.com/info4323/form/FormPTSindikat/formperma/b-L65ScBwZCmSvwG1izE8eINjtANF95RlbgGOznp9_M?zf_rszfm=1';
+															f.style.border="none";                                           
+															f.style.height="1444px";
+															f.style.width="100%";
+															f.style.transition="all 0.5s ease";
+															var d = document.getElementById("zf_div_b-L65ScBwZCmSvwG1izE8eINjtANF95RlbgGOznp9_M");
+															d.appendChild(f);
+															window.addEventListener('message', function (){
+															var evntData = event.data;
+															if( evntData && evntData.constructor == String ){
+															var zf_ifrm_data = evntData.split("|");
+															if ( zf_ifrm_data.length == 2 ) {
+															var zf_perma = zf_ifrm_data[0];
+															var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
+															var iframe = document.getElementById("zf_div_b-L65ScBwZCmSvwG1izE8eINjtANF95RlbgGOznp9_M").getElementsByTagName("iframe")[0];
+															if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
+															var prevIframeHeight = iframe.style.height;
+															if ( prevIframeHeight != zf_ifrm_ht_nw ) {
+															iframe.style.height = zf_ifrm_ht_nw;
+															}   
+															}
+															}
+															}
+															}, false);
+															}catch(e){}
+															})();
+														</script>
+														</div>
+													</div>
+												</li>
+											</ul>
+											<!-- xxx -->
 										</header>
 									</div>
 								</div>
 								<div class="swiper-slide">
-									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-										<div class="time-line-thumb">
-											<img src="img/time-thumb.png" alt="photo">
-										</div>
-									</div>
-									<div class="col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
-										<header class="crumina-module crumina-heading heading--h4">
-											<div class="heading-sup-title">September <span class="weight-bold">2012</span>
-											</div>
-											<h4 class="heading-title">Foundation of the Company</h4>
-											<div class="heading-text">Investigationes demonstraverunt lectores legere me lius
-												quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam
-												nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula
-												qui mutationem consuetudium.
-											</div>
-											<div class="heading-text">Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum option congue nihil.
-											</div>
+									<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
+										<header>
+											<div class="heading-sup-title text-dark mb-4">Tahap <span class="weight-bold">2</span></div>
+											<h5 class="uppercase bg-gray mb-3 uppercase">Konsultasi dengan Sindikat</h5>
+											<p class="heading-text">Ada beberapa cara konsultasi, diantaranya melalui <span class="link--with-decoration">konsultasi online dan offline.</span></p>
+											<p><span class="link--with-decoration">Konsultasi online</span> bisa melalui saluran komunikasi telpon, korespondensi email maupun meeting online dengan platform Zoom Meeting dan Google Meet.</p>
+											<p><span class="link--with-decoration">Konsultasi offline</span> bisa melalui saluran tatap muka. Untuk menjaga pekerjaan dapat terlaksana dengan baik, maka kami menyarankan untuk <span class="link--with-decoration">konsultasi tatap muka </span> dengan tetap menjaga protokol kesehatan. <a href="/hubungi-kami" class="line">Lihat jadwal konsultasi tatap muka</a></p>
+											<div class="heading-text">Dalam pengalaman kami, apabila konsultasi tatap muka sangat minim terjadi miskomunikasi dan kesalahan dilakukannya pekerjaan.</div>
 										</header>
 									</div>
 								</div>
 								<div class="swiper-slide">
-									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-										<div class="time-line-thumb">
-											<img src="img/time-thumb.png" alt="photo">
-										</div>
-									</div>
-									<div class="col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
-										<header class="crumina-module crumina-heading heading--h4">
-											<div class="heading-sup-title">September <span class="weight-bold">2013</span>
-											</div>
-											<h4 class="heading-title">Foundation of the Company</h4>
-											<div class="heading-text">Investigationes demonstraverunt lectores legere me lius
-												quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam
-												nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula
-												qui mutationem consuetudium.
-											</div>
-											<div class="heading-text">Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum option congue nihil.
-											</div>
+									<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
+										<header>
+											<div class="heading-sup-title text-dark mb-4">Tahap <span class="weight-bold">3</span></div>
+											<h5 class="uppercase bg-gray mb-3 uppercase">Pembayaran uang panjar</h5>
+											<p class="heading-text">Kami akan mengirimkan penawaran beserta detail pembayaran uang panjar sebagai komitmen dari calon Klien atas persetujuan atas pelaksanaan pekerjaan. Jumlah uang muka yang kami tetapkan adalah <span class="link--with-decoration">50% (lima puluh persen)</span> dari total invoice. </p>
+											<div class="heading-text">Kami menyediakan program promo cicilan yang dapat dilihat <a class="line" href="/program-cicilan"><strong>disini.</strong></a></div>
 										</header>
 									</div>
 								</div>
 								<div class="swiper-slide">
-									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-										<div class="time-line-thumb">
-											<img src="img/time-thumb.png" alt="photo">
-										</div>
-									</div>
-									<div class="col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
-										<header class="crumina-module crumina-heading heading--h4">
-											<div class="heading-sup-title">September <span class="weight-bold">2014</span>
-											</div>
-											<h4 class="heading-title">Foundation of the Company</h4>
-											<div class="heading-text">Investigationes demonstraverunt lectores legere me lius
-												quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam
-												nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula
-												qui mutationem consuetudium.
-											</div>
-											<div class="heading-text">Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum option congue nihil.
-											</div>
+									<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
+										<header>
+											<div class="heading-sup-title text-dark mb-4">Tahap <span class="weight-bold">4</span></div>
+											<h5 class="uppercase bg-gray mb-3 uppercase">Persetujuan pelaksanaan pekerjaan</h5>
+											<p class="heading-text">Setelah dilakukan pembayaran pembayaran uang panjar, maka calon Klien telah dianggap menyetujui kontrak kerja. Calon Klien telah berubah menjadi Klien, dan berikutnya kami akan menjaga segala yang terbaik untuk kepentingan Klien selama pelaksanaan pekerjaan.</p>
+											<div class="heading-text">Kami menyiapkan dokumen-dokumen kuasa pelaksanaan pekerjaan dan isian formulir yang sudah final.</div>
 										</header>
 									</div>
 								</div>
 								<div class="swiper-slide">
-									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-										<div class="time-line-thumb">
-											<img src="img/time-thumb.png" alt="photo">
-										</div>
-									</div>
-									<div class="col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
-										<header class="crumina-module crumina-heading heading--h4">
-											<div class="heading-sup-title">September <span class="weight-bold">2015</span>
-											</div>
-											<h4 class="heading-title">Foundation of the Company</h4>
-											<div class="heading-text">Investigationes demonstraverunt lectores legere me lius
-												quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam
-												nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula
-												qui mutationem consuetudium.
-											</div>
-											<div class="heading-text">Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum option congue nihil.
-											</div>
+									<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
+										<header>
+											<div class="heading-sup-title text-dark mb-4">Step <span class="weight-bold">5</span></div>
+											<h5 class="uppercase bg-gray mb-3 uppercase">Kami mulai bekerja</h5>
+											<p class="heading-text">Pekerjaan dilaksanakan dengan dasar isian formulir dan kesepakatan ketika konsultasi. Kami akan membuat <span class="link--with-decoration">Grup Whatsapp.</span> Di dalam grup tersebut antara Klien dan tim Sindikat dapat berkomunikasi.</p>
+											<div class="heading-text">Kami berupaya sebisa mungkin untuk memberikan tanggapan yang <i>fast response</i> di dalam grup untuk menjamin kepuasan Klien.</div>
 										</header>
 									</div>
 								</div>
 								<div class="swiper-slide">
-									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-										<div class="time-line-thumb">
-											<img src="img/time-thumb.png" alt="photo">
-										</div>
-									</div>
-									<div class="col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
-										<header class="crumina-module crumina-heading heading--h4">
-											<div class="heading-sup-title">September <span class="weight-bold">2016</span>
-											</div>
-											<h4 class="heading-title">Foundation of the Company</h4>
-											<div class="heading-text">Investigationes demonstraverunt lectores legere me lius
-												quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam
-												nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula
-												qui mutationem consuetudium.
-											</div>
-											<div class="heading-text">Claritas est etiam processus dynamicus, qui sequitur
-												mutationem consuetudium lectorum option congue nihil.
-											</div>
+									<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-sm-offset-0 col-xs-12">
+										<header>
+											<div class="heading-sup-title text-dark mb-4">Step <span class="weight-bold">6</span></div>
+											<h5 class="uppercase bg-gray mb-3 uppercase">Pelunasan Pekerjaan</h5>
+											<p>Pekerjaan telah selesai. Kami akan mengirimkan invoice sisa pembayaran dan selanjutnya kami akan menyerahkan hasil pekerjaan.</p>
+											<p class="heading-text">Kami akan meminta <span class="link--with-decoration">testimoni Klien</span> dan tanggapan atas layanan yang kami berikan. </p>
+											<div class="heading-text">Pekerjaan selesai, kami tetap menjaga hubungan baik dengan Klien. Klien dapat bertanya kapanpun di dalam Grup Whatsapp.</div>
 										</header>
 									</div>
 								</div>
