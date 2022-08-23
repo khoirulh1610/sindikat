@@ -38,8 +38,7 @@
 							<table class="table display">
 									<thead style="background-color:black">
 										<th>No</th>
-										<th>Indonesia</th>
-										<th>Inggris/Belanda/Latin</th>
+										<th>Istilah</th>										
 										<th>Lihat</th>
 									</thead>
 									<tbody>
@@ -48,26 +47,21 @@
 											<td>{{$loop->iteration}}</td>
 											<td>
 												<?php
+
+													$istilah = $k->indo ?? $k->asing;
 													if($keyword){
-														$kuning = "<span style='background-color:yellow'>".$keyword."</span";
-														echo str_replace($keyword,$kuning,$k->indo);
+														$kuning = "<span style='background-color:yellow'>".$keyword."</span>";
+														$kuning2 = "<span style='background-color:yellow'>".ucwords($keyword)."</span>";
+														$text = str_replace($keyword,$kuning,$istilah);														
+														$text = str_replace(ucwords($keyword),$kuning2,$text);														
+														echo $text;
 													}else{
-														echo $k->indo;
+														echo $istilah;
 													}
 												?>
-											</td>
-											<td>
-											<?php
-													if($keyword){
-														$kuning = "<span style='background-color:yellow'>".$keyword."</span";
-														echo str_replace($keyword,$kuning,$k->asing);
-													}else{
-														echo $k->asing;
-													}
-												?>
-											</td>
+											</td>											
 											<td> 
-												<a href="{{url('kamus-hukum/'.$k->indo)}}" class="btn btn--secondary">Detail</a>
+												<a href="{{url('kamus-istilah-hukum/'.$k->url)}}" class="btn btn--secondary">Detail</a>
 											</td>
 										</tr>
 										@endforeach

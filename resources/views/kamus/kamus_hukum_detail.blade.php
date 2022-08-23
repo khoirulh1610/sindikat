@@ -24,7 +24,7 @@
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mb30" data-mh="equal-block">					
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">							
-							<div class="box-yellow">									
+							<div class="box-black">									
 									<table class="" style="border:hidden; border: none;">
 										<tr class="text-left" style="border: none;">
 											<td width="10px">Indonesia</td>											

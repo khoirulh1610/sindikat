@@ -40,17 +40,21 @@ class KamusController extends Controller
     {
         $kamus = null;
         if($request->keyword){
-            $kamus = KamusHukum::where('indo','like','%'.$request->keyword.'%')
-            ->orWhere('asing','like','%'.$request->keyword.'%')            
-            ->paginate(25);       
-        }
+            $kamus = KamusHukum::select('indo','url')
+            ->where('indo','like','%'.$request->keyword.'%')                        
+            ->whereNotNull('ket')
+            ->groupBy('indo','url')    
+            ->orderBy('indo')        
+            ->paginate(25);                               
+        }                 
         $keyword = $request->keyword ?? null;
         return view('kamus.kamus_istilah_hukum', compact('kamus','keyword'));
     }
 
     public function kamus_istilah_hukum_detail(Request $request,$url)
     {
-        $kamus = KamusHukum::first();
+        // $kamus = KamusHukum::first();
+        $kamus = KamusHukum::where('url',$url)->whereNotNull('ket')->get();
         return view('kamus.kamus_istilah_hukum_detail', compact('kamus','url'));
     }
 

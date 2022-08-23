@@ -33,15 +33,36 @@ Route::get('istilah-hukum',[KamusController::class, 'istilah_hukum'])->name('kam
 
 Route::get('kbli',[KbliController::class, 'index'])->name('kbli');
 
-Route::get('/{slug}/{url}', function ($slug,$url) {
-    if(View::exists($slug.'.'.$url)){
-        return view($slug.'.'.$url);
-    }else{
-        return view('404', compact('url'));
-    }
-});
+// Route::get('/{slug}/{url}', function ($slug,$url) {
+//     if(View::exists($slug.'.'.$url)){
+//         return view($slug.'.'.$url);
+//     }else{
+//         return view('404', compact('url'));
+//     }
+// });
 
-Route::get('/{url}', function ($url) {
+$pages = \DB::table('page')->get(); 
+foreach ($pages as $page) {
+    $url = $page->url;    
+    Route::any($page->url, function () use ($page) {       
+        $data = [
+            'description'=>$page->description,
+            'image'=>$page->image,
+            'keywords'=>$page->keywords,
+            'content'=>$page->content,
+            'title'=>$page->title
+        ];        
+        // echo ('page.'.$page->file);
+        if(View::exists('page.'.$page->file)){            
+           
+            return view('page.'.$page->file,$data);
+        }else{
+            return view('page.page-global', $data);
+        }
+    });
+}
+
+Route::any('/{url}', function ($url) {       
     if(View::exists('page.'.$url)){
         return view('page.'.$url);
     }else{

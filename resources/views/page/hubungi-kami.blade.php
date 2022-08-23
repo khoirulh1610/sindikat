@@ -11,7 +11,7 @@
 				<p class="text-white mt-4 bounce"><strong>Scroll Down</strong></p>
 			</div>
 		</div>
-		<div class="me-intro hidden-xs hidden-sm"><div class="me-block"><img src="/assets/img/orang3.png"></div></div>
+		<div class="me-intro hidden-xs hidden-sm"><div class="me-block"><img src="/assets/img/orang2.png"></div></div>
 		<div class="section hidden-xs hidden-sm" id="section1"></div>
 		<div class="section" id="section2">
 			<div class="intro" id="sindikat">
@@ -22,17 +22,17 @@
 								<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
 									<h3 class="uppercase bg-green mb-3 uppercase">Konsultasi</h3>
 									<p class="bg-gray">
-										<strong>Konsultasi Online</strong> <br> Senin - Jumat. <a href="#" class="line">Buat Janji</a> <br>
-										<strong>Konsultasi Tatap Muka</strong> <br> Senin Rabu Jumat. <a href="#" class="line">Buat Janji</a>
+										<strong>Konsultasi Online</strong> <br> Senin - Jumat. <a href="/link" class="line">Buat Janji</a> <br>
+										<strong>Konsultasi Tatap Muka</strong> <br> Senin Rabu Jumat. <a href="/link" class="line">Buat Janji</a>
 									</p>
 									<div class="bg-gray pb-0">
 										
-										<p class="c-black">Menara Cakrawala 12th FL/1205A <br>Thamrin Jakarta Pusat 10340 <br><a href="#" class="line">Google Maps</a>
+										<p class="c-black">Menara Cakrawala 12th FL/1205A <br>Thamrin Jakarta Pusat 10340 <br><a href="/link" class="line">Google Maps</a>
 										</p>
 										
 										<p class="c-black">
-											Ph/WA: <a href="#" class="line">0811-899-895</a> <br>
-											E: <a href="#" class="line">info@sindikat.co.id</a></p>
+											Ph/WA: <a href="/link" class="line">0811-899-895</a> <br>
+											E: <a href="/link" class="line">info@sindikat.co.id</a></p>
 									</div>
 								</header>
 
@@ -104,8 +104,8 @@
                             <header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
                                 <h3 class="uppercase bg-green mb-3 uppercase">Konsultasi</h3>
                                 <p class="bg-gray">
-                                    <strong>Konsultasi Online</strong> <br> Senin - Jumat. <a href="#" class="line">Buat Janji</a> <br>
-                                    <strong>Konsultasi Tatap Muka</strong> <br> Senin Rabu Jumat. <a href="#" class="line">Buat Janji</a>
+                                    <strong>Konsultasi Online</strong> <br> Senin - Jumat. <a href="/link" class="line">Buat Janji</a> <br>
+                                    <strong>Konsultasi Tatap Muka</strong> <br> Senin Rabu Jumat. <a href="/link" class="line">Buat Janji</a>
                                 </p>
                             </header>
 

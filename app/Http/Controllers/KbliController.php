@@ -9,7 +9,11 @@ class KbliController extends Controller
 {
     public function index(Request $request)
     {
-        $kbli = Kbli::all();
-        return view('kbli.index',compact('kbli'));
+        $keyword = strtoupper(trim($request->keyword)) ?? null;
+        $kbli = Kbli::paginate(20);        
+        if($keyword){
+            $kbli = Kbli::where('code',$keyword)->orWhere('title','like','%'.$keyword.'%')->paginate(20);        
+        }
+        return view('kbli.index',compact('kbli','keyword'));
     }
 }
