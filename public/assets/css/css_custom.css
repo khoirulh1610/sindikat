@@ -1650,7 +1650,7 @@ body.swal2-no-backdrop .swal2-shown.swal2-bottom-right {
 .box-black {
 	justify-content: space-between;
 	padding: 20px;
-	border-radius: 30px;
+	border-radius: 0px;
 	box-shadow: 15px 0 40px 0 rgb(61 67 79 / 8%);
 	background-color: #000;
 }

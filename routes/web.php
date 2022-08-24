@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\KamusController;
 use App\Http\Controllers\KbliController;
-
+use App\Http\Controllers\HubController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,8 +30,8 @@ Route::get('kamus-istilah-hukum/{slug}',[KamusController::class, 'kamus_istilah_
 Route::get('kamus-update',[KamusController::class, 'update'])->name('kamus.update');
 
 Route::get('istilah-hukum',[KamusController::class, 'istilah_hukum'])->name('kamus.istilah_hukum');
-
 Route::get('kbli',[KbliController::class, 'index'])->name('kbli');
+Route::post('hubungi-kami',[HubController::class,'hub_kami'])->name('hub.kami');
 
 // Route::get('/{slug}/{url}', function ($slug,$url) {
 //     if(View::exists($slug.'.'.$url)){
@@ -69,3 +69,4 @@ Route::any('/{url}', function ($url) {
         return view('404', compact('url'));
     }
 });
+

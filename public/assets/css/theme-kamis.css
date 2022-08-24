@@ -8503,7 +8503,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
   background-position: center;
   background-size: 100% auto;
   background-attachment: scroll;
-  opacity: 0.3;
+  opacity: 1;
   filter: alpha(opacity=30);
   padding: 6% 0 0 0;
 }
@@ -8976,3 +8976,19 @@ html {
   background: #000000;
 }
 /* modal end */
+
+.box-black {
+	justify-content: space-between;
+	padding: 0px;
+	border-radius: 0px;
+	box-shadow: 15px 0 40px 0 rgb(61 67 79 / 8%);
+	background-color: #000;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.sen {
+  text-transform: lowercase;
+}

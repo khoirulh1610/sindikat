@@ -20,9 +20,9 @@
 						<div class="row">
 							<div class="col-lg-4 col-md-4 left">
 								<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
-									<h2 class="uppercase bg-green mb-3 uppercase">Spesialis Jasa Legalitas</h2>
+									<h2 class="uppercase bg-gray mb-3 uppercase">Spesialis Jasa Legalitas</h2>
 									<div class="heading-text mb-3 hidden-xs hidden-sm"><strong>Kenapa kami spesial?</strong></div>
-									<p class="bg-green transparent mb-3">Sindikat adalah portal legalitas bagi pelaku usaha yang memberikan <span class="line"><a href="/siasat">siasat legalitas</a></span> dan <span class="line"><a href="/legalitas">layanan legalitas</a></span> yang terpercaya.</p>
+									<p class="bg-gray mb-3">Sindikat adalah portal legalitas bagi pelaku usaha yang memberikan <span class="line"><a href="/siasat">siasat legalitas</a></span> dan <span class="line"><a href="/legalitas">layanan legalitas</a></span> yang terpercaya.</p>
 								</header>
 
 							</div>
@@ -210,10 +210,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4 left">
-							<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
-								<h2 class="uppercase bg-green mb-3 uppercase">Spesialis Jasa Legalitas</h2>
+							<header class="">
+								<h2 class="uppercase bg-gray mb-3 uppercase">Spesialis Jasa Legalitas</h2>
 								<div class="heading-text mb-3 hidden-xs hidden-sm"><strong>Kenapa kami spesial?</strong></div>
-								<p class="bg-green transparent mb-3">Sindikat adalah portal legalitas bagi pelaku usaha yang memberikan <span class="line"><a href="/siasat">siasat legalitas</a></span> dan <span class="line"><a href="/legalitas">layanan legalitas</a></span> yang terpercaya.</p>
+								<p class="bg-gray mb-3">Sindikat adalah portal legalitas bagi pelaku usaha yang memberikan <span class="line"><a href="/siasat">siasat legalitas</a></span> dan <span class="line"><a href="/legalitas">layanan legalitas</a></span> yang terpercaya.</p>
 							</header>
 
 						</div>

@@ -1,5 +1,5 @@
 <!-- desktop chat -->
-<a href="/link">
+<!-- <a href="/link">
 	<div class="me-intro-samping fixed hidden-xs">
 		<div class="me-block animated slideInRight slow delay-10">
 				<img src="/assets/img/chat-wa-sindikat.png" alt="whatsapp button">
@@ -10,7 +10,7 @@
 			<img src="/assets/img/get-in-res.png" alt="button sindikat">
 		</div>
 	</div>
-</a>
+</a> -->
 
 <!-- mobile chat -->
 <div id="whatsapp">

@@ -9,17 +9,17 @@
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 text-white">
 				<h5 class="uppercase bg-blue text-white mb-3 uppercase">Kamus Hukum</h5>
 				<p class="text-white">11.000++ istilah hukum beserta translasi Indonesia - English</p>
-				<a href="/kamus-hukum" class="hover"><img src="/assets/img/kamus-hukum-indonesia-inggris.jpg" alt="kamus hukum indonesia inggris"></a>
+				<a href="/kamus-hukum" class="hover"><img src="/assets/img/kamus-hukum-indonesia-inggris.jpg" alt="kamus hukum indonesia inggris" class="bg-gray mt-0"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 text-white">
 				<h5 class="uppercase bg-blue text-white mb-3 uppercase">KBLI 2020</h5>
 				<p class="text-white">Lihat tabel kode KBLI 2020 yang telah kami susun</p>
-				<a href="/kbli" class="hover"><img src="/assets/img/kbli-2020.jpg" alt="kbli 2020 sindikat"></a>
+				<a href="/kbli" class="hover"><img src="/assets/img/kbli-2020.jpg" alt="kbli 2020 sindikat" class="bg-gray mt-0"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb30 text-white">
 				<h5 class="uppercase bg-blue text-white mb-3 uppercase">Istilah Hukum</h5>
 				<p class="text-white">Ribuan istilah hukum Indonesia beserta dengan arti dan penjelasan</p>
-				<a href="/istilah-hukum" class="hover"><img src="/assets/img/kamus-istilah-hukum.jpg" alt="kamus istilah hukum"></a>
+				<a href="/istilah-hukum" class="hover"><img src="/assets/img/kamus-istilah-hukum.jpg" alt="kamus istilah hukum" class="bg-gray mt-0"></a>
 			</div>
 		</div>
 		<div class="row mb-5">

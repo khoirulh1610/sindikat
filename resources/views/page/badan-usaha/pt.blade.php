@@ -34,55 +34,15 @@
 							<div class="content">
 								<h3 class="uppercase bg-gray mb-3 uppercase">Pengertian PT</h3>
 								<p class="bg-green"> 
-								PT atau yang disebut Perseroan terbatas adalah badan usaha yang berbentuk badan hukum yang berbentuk persekutuan modal yang didirikan oleh pendiri PT untuk melakukan kegiatan usaha komersial untuk bisa bagi <span class="istilah"><a href="#dividen">dividen.<sup>[1]</sup></a></span>
-								<div id="dividen" class="modalDialog">
-									<div>
-										<p><strong>Dividen</strong></p>
-										<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-										<hr>
-										<p><a href="/istilah-hukum" class="line">Lihat Kamus Istilah Hukum</a></p>
-										<br>
-										<a href="#close" title="Close" class="bg-dark p-2 text-white">Tutup</a>
-										<a href="#close" title="Close" class="close">X</a>
-									</div>
-								</div>
-								</p>
-								
-								<p>Ada 2 (dua) macam PT yaitu PT Biasa dan PT Perorangan<sup><a href="#" class="text-blue">[2]</a></sup>. Disini kami membahas <span class="link--with-decoration">PT biasa</span> yaitu PT yang didirikan oleh 2 (dua) orang, sedangkan pembahasan <span class="istilah"><a href="#pt-perorangan">PT Perorangan<sup>[2]</sup></a></span>  yaitu PT yang didirikan oleh 1 (satu) orang dapat lihat di <a href="/badan-usaha/pt-perorangan" class="line">link ini.</a></p>
-								<div id="pt-perorangan" class="modalDialog">
-									<div>
-										<p><strong>PT Perorangan</strong></p>
-										<p>PT Perorangan adalah Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ab rem nisi, cum repellat deserunt accusantium aliquid quam dolor ad sequi odit iste non ducimus amet in eveniet, neque quod! Quaerat dolor ea eius ratione ab quo voluptatum vitae quae molestias natus harum obcaecati modi, totam recusandae saepe, sed in vero voluptatem, excepturi sit eum inventore! Natus perspiciatis, ab voluptas adipisci, quibusdam officiis a quaerat, laudantium quas perferendis minus eos sapiente! Odio facilis voluptas minus!</p>
-										<hr>
-										<p><a href="/istilah-hukum" class="line">Lihat Kamus Istilah Hukum</a></p>
-										<br>
-										<a href="#close" title="Close" class="bg-dark p-2 text-white">Tutup</a>
-										<a href="#close" title="Close" class="close">X</a>
-									</div>
-								</div>
+								PT atau yang disebut Perseroan terbatas adalah badan usaha yang berbentuk  <span class="istilah"><a href="#badan-hukum">badan hukum<sup>[1]</sup></a></span>  yang berbentuk persekutuan modal yang didirikan oleh pendiri PT untuk melakukan kegiatan usaha komersial untuk yang keuntungannya dibagikan sebagai <span class="istilah"><a href="#dividen">dividen<sup>[2]</sup>.</a></span>
+								<p>Ada 2 (dua) macam PT yaitu PT Biasa dan <span class="istilah"><a href="#pt-perorangan">PT Perorangan<sup>[2]</sup></a></span>. Disini kami membahas <span class="link--with-decoration">PT biasa</span> yaitu PT yang didirikan oleh 2 (dua) orang, sedangkan pembahasan PT Perorangan yaitu PT yang didirikan oleh 1 (satu) orang dapat lihat di <a href="/badan-usaha/pt-perorangan" class="line">link ini.</a></p>
 								<h3 class="uppercase bg-gray mb-3 uppercase">Dasar Hukum PT</h3>
 								<p class="">
 								Dasar hukum PT adalah UU No 40 tahun 2007 tentang Perseroan Terbatas. <a href="/peraturan/uu-perseroan-terbatas-uupt.pdf"><span class="line">Download disini.</span></a>
 								</p>
 								<h3 class="uppercase bg-gray mb-3 uppercase">OSS RBA</h3>
-								<p>
-								<span class="istilah"><a href="#oss-rba">OSS RBA<sup>[3]</sup></a></span> atau yang dikenal dengan <em>Online Single Submission Risk Based Approach</em> adalah platform satu pintu untuk pengurusan izin di Indonesia yang berbasis risiko.
-								<div id="oss-rba" class="modalDialog">
-									<div>
-										<p><strong>OSS RBA</strong></p>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum saepe libero eligendi maxime nesciunt quod perspiciatis, molestias aperiam, eveniet architecto perferendis veniam aliquam sapiente qui dolores tempore excepturi recusandae impedit ab vel necessitatibus magni facilis, sint fugiat. Tenetur ullam itaque, expedita incidunt dolores placeat maxime.</p>
-										<hr>
-										<p><a href="/istilah-hukum" class="line">Lihat Kamus Istilah Hukum</a></p>
-										<br>
-										<a href="#close" title="Close" class="bg-dark p-2 text-white">Tutup</a>
-										<a href="#close" title="Close" class="close">X</a>
-									</div>
-								</div>
-								</p>
-								</p>
+								<p><span class="istilah"><a href="#oss-rba">OSS RBA<sup>[4]</sup></a></span> atau yang dikenal dengan <em>Online Single Submission Risk Based Approach</em> adalah platform satu pintu untuk pengurusan izin di Indonesia yang berbasis risiko.
 								<p>Maksud dari berbasis risiko ini adalah nomenklatur jenis izin usaha yang harus diperoleh adalah harus sesuai dengan jenis risiko tiap-tiap kegiatan usaha. Baca <a href="/siasat/kenali-4-risiko-oss-rba" class="line"> Kenali 4 Jenis Risiko di OSS RBA.</a></p>
-<!-- 
-								<p><span class="link--with-decoration">Sindikat</span> dapat membantu kamu untuk mendirikan PT sebagai badan formal atas bisnis kamu. Biaya mulai dari <span class="link--with-decoration">Rp 3 juta</span> dengan wilayah seluruh Indonesia.</p> -->
 							</div>
 						</div>
 						<div class="col-lg-6 right">
@@ -114,8 +74,7 @@
 							<br><strong>Desain Kartu Nama</strong>
 						</p>
 						<p class="small link--with-decoration mb-0 pb-0"><u>klik detail</u></p>
-						<p class="pricing-description bg-green">Termasuk: <strong>Pengecekan nama PT, konsultasi gratis, Akta Notaris, SK Menteri</strong></p>
-						<div class="mt30"></div>
+						<p class="pricing-description bg-green">Termasuk: <strong>Pengecekan nama PT, konsultasi gratis, Akta Notaris, SK Menteri</strong><img src="/assets/img/poster-pt.jpg" alt="jasa pembuatan PT" class="bg-gray"></p>
 						<div class="price mt30">
 							<div class="currency">juta</div>
 							<div class="price-value uppercase mt-3">3</div>
@@ -135,7 +94,7 @@
 							<br><strong>Desain Kop Surat</strong>
 						</p>
 						<p class="small link--with-decoration mb-0 pb-0"><u>klik detail</u></p>
-						<p class="pricing-description bg-green">Termasuk: <strong>Akta Notaris, SK Menteri, NPWP, SKT Pajak, NIB, Izin Usaha (OSS & NIB)</strong></p>
+						<p class="pricing-description bg-green">Termasuk: <strong>Akta Notaris, SK Menteri, NPWP, SKT Pajak, NIB, Izin Usaha (OSS & NIB)</strong><img src="/assets/img/poster-pt-izin.jpg" alt="jasa pembuatan PT dan izin" class="bg-gray"></p>
 						<div class="price mt30">
 							<div class="currency">juta</div>
 							<div class="price-value uppercase mt-3">6</div>
@@ -156,7 +115,7 @@
 							<br><strong>Desain Amplop</strong>
 						</p>
 						<p class="small link--with-decoration mb-0 pb-0"><u>klik detail</u></p>
-						<p class="pricing-description bg-green">Termasuk: <strong>Akta Notaris, SK Menteri, NPWP, SKT Pajak, NIB, Izin Usaha (OSS & NIB) termasuk sewa alamat kantor di virtual office Jakarta selama 1 tahun.</strong></p>
+						<p class="pricing-description bg-green">Termasuk: <strong>Akta Notaris, SK Menteri, NPWP, SKT Pajak, NIB, Izin Usaha (OSS & NIB) termasuk sewa alamat kantor di virtual office Jakarta selama 1 tahun.</strong><img src="/assets/img/poster-pt-izin-vo.jpg" alt="jasa pembuatan PT dan virtual office" class="bg-gray"></p>
 						<p class="pricing-description bg-green">Lokasi Virtual office
 							<br><strong>Jakarta Pusat</strong>
 							<br><strong>Jakarta Selatan</strong>
@@ -566,11 +525,39 @@
 		</div>
 	</section>
 
+	<div id="badan-hukum" class="modalDialog">
+		<div>
+			<p><strong>Badan Hukum</strong></p>
+			<p>Badan atau organisasi yang oleh hukum diperlakukan sebagai orang</p>
+			@include('layouts.tutup')
+		</div>
+	</div>
+	<div id="dividen" class="modalDialog">
+		<div>
+			<p><strong>Dividen</strong></p>
+			<p>Dividen adalah bagian keuntungan perusahaan yang dibagikan kepada pemegang saham. Jumlah dividen yang akan dibagikan diusulkan oleh Dewan Direksi perusahaan dan disetujui di dalam Rapat Umum Pemegang Saham (RUPS)</p>
+			@include('layouts.tutup')
+		</div>
+	</div>
+	<div id="pt-perorangan" class="modalDialog">
+		<div>
+			<p><strong>PT Perorangan</strong></p>
+			<p>Badan hukum perorangan atau badan hukum yang didirikan oleh 1 (satu) orang yang memenuhi kriteria Usaha Mikro dan Kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai Usaha Mikro dan Kecil</p>
+			@include('layouts.tutup')
+		</div>
+	</div>
+	<div id="oss-rba" class="modalDialog">
+		<div>
+			<p><strong>OSS RBA</strong></p>
+			<p>Perizinan berusaha yang diberikan kepada pelaku usaha untuk memulai dan menjalankan kegiatan usahanya yang dinilai berdasarkan tingkat risiko kegiatan usaha </p>	
+			@include('layouts.tutup')
+		</div>
+	</div>
+
 
 @include('layouts.peralatan')
 
 @include('layouts.bertanya')
 
-
-		
+</div>
 @endsection

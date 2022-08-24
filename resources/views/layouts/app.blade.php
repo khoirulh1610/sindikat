@@ -38,7 +38,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/animate.min.css">
-	<link rel="stylesheet" href="/assets/css/css_custom.css">
+	<!-- <link rel="stylesheet" href="/assets/css/css_custom.css"> -->
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-icon-57x57.png">

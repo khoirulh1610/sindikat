@@ -87,11 +87,15 @@
 			</div>
 		</div>
 	</section>
+
 </div>
 
-@include('layouts.peralatan')
+    @include('layouts.peralatan')
 
-@include('layouts.bertanya')
+    @include('layouts.bertanya')
+
+
+
 
 
 @endsection

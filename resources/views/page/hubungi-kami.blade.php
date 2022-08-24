@@ -38,8 +38,9 @@
 
 							</div>
 							<div class="col-lg-4 col-lg-offset-4 right ">
-								<h3 class="uppercase bg-green mb-3 uppercase">Bertanya</h3>
-								<form class="contact-form login-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="modules/forms/submit.php" novalidate="novalidate">
+								<h3 class="uppercase bg-green mb-3 uppercase">Bertanya Yogi</h3>
+								<form class="contact-form login-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="{{route('hub.kami')}}" novalidate="novalidate">
+									@csrf()
 									<div class="row">
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<div class="form-group label-floating is-empty">
@@ -112,8 +113,9 @@
                         </div>
                         <div class="col-lg-4 col-lg-offset-4 right ">
                             <h3 class="uppercase bg-green mb-3 uppercase">Bertanya</h3>
-                            <form class="contact-form login-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="modules/forms/submit.php" novalidate="novalidate">
-                                <div class="row">
+                            <form class="contact-form login-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="{{route('hub.kami')}}" novalidate="novalidate">
+								@csrf()
+								<div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <div class="form-group label-floating is-empty">
                                             <label class="input-label control-label">Tulis Pesan: <abbr class="required" title="required">*</abbr></label>
