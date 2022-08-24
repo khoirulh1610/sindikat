@@ -256,7 +256,7 @@
 	    */
 	    public function hook_before_add(&$postdata) {        
 	        //Your code here
-			$url = $postdata['indo'];
+			$url =strtolower($postdata['indo']);
             $url = str_replace(' ','-',trim($url));
             $url = preg_replace('/[^a-zA-Z0-9\'-]/','',$url);
             $url = str_replace('--','-',$url);

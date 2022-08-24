@@ -9,6 +9,7 @@ class HubController extends Controller
 {
     public function hub_kami(Request $request)
     {
+        // return $request->all();
         $validate = $request->validate([
             'message'=> 'required',
             'name'=>'required'

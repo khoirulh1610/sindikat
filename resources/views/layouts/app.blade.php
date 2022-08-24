@@ -193,6 +193,7 @@
 
 @yield('content')
 
+@include('hubungi-kami')
 
 <footer id="paling-bawah" class="hidden-xs border-top">
 	<div class="container">

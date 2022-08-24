@@ -10,27 +10,28 @@ class KamusController extends Controller
     public function kamus_hukum(Request $request)
     {
         $kamus = null;
-        if($request->keyword){
+        if($request->keyword){            
+            $keys = explode(' ',$request->keyword);
+            $cari = implode('%',explode(' ',$request->keyword));
             $kamus = KamusHukum::select('indo','url')
-            ->where('indo','like','%'.$request->keyword.'%')                        
+            ->where('indo','like','%'.$cari.'%')                        
             ->whereNotNull('asing')
             ->groupBy('indo','url')    
             ->orderBy('indo')        
             ->paginate(25);                               
         }                 
         $keyword = $request->keyword ?? null;
-        return view('kamus.kamus_hukum', compact('kamus','keyword'));
+        return view('kamus.kamus_hukum', compact('kamus','keyword','keys'));
     }
 
     public function kamus_hukum_detail(Request $request,$url)
     {
-        // if(strlen($url)<75){
-        //     $kamus = KamusHukum::where('indo',$url)->get();
-        // }else{
-        //     $kamus = KamusHukum::where('indo','like',$url.'%')->get();
-        // }        
         $kamus = KamusHukum::where('url',$url)->get();
-        return view('kamus.kamus_hukum_detail', compact('kamus','url'));
+        $keys = KamusHukum::select('indo')
+        ->where('url',$url)
+        ->groupBy('indo','url')         
+        ->get();
+        return view('kamus.kamus_hukum_detail', compact('kamus','url','keys'));
     }
 
 
@@ -51,11 +52,18 @@ class KamusController extends Controller
         return view('kamus.kamus_istilah_hukum', compact('kamus','keyword'));
     }
 
-    public function kamus_istilah_hukum_detail(Request $request,$url)
-    {
-        // $kamus = KamusHukum::first();
-        $kamus = KamusHukum::where('url',$url)->whereNotNull('ket')->get();
-        return view('kamus.kamus_istilah_hukum_detail', compact('kamus','url'));
+    public function kamus_istilah_hukum_detail(Request $request,$url)    {
+        
+        $kamus = KamusHukum::where('url',$url)
+        ->whereNotNull('ket')
+        ->orderBy('id')
+        ->get();
+        $keys = KamusHukum::select('indo','asing')
+        ->where('url',$url)
+        ->whereNotNull('ket')
+        ->groupBy('indo','asing')
+        ->get();
+        return view('kamus.kamus_istilah_hukum_detail', compact('kamus','url','keys'));
     }
 
     public function update()

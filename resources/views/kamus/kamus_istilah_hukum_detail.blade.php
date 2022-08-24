@@ -18,20 +18,20 @@
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mb30" data-mh="equal-block">					
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">		
-							<p class="link text-dark mb-2 mt-2">Hasil Pencarian <strong><span class="sen">'@foreach($kamus as $k) {{$k->indo ?? $k->asing}} @endforeach'</span></strong></p>
+							<p class="link text-dark mb-2 mt-2">Hasil Pencarian <strong><span class="sen">'@foreach($keys as $k) {{$k->indo ?? $k->asing}} @endforeach'</span></strong></p>
 							<hr class="mb-3">
 							
-							<h5 class="cap mb-3 mt-3 uppercase">Pengertian @foreach($kamus as $k) {{$k->indo ?? $k->asing}} @endforeach</h5>
+							<h5 class="cap mb-3 mt-3 uppercase">Pengertian @foreach($keys as $k) {{$k->indo ?? $k->asing}} @endforeach</h5>
 							<p><strong>
-								<span class="cap">@foreach($kamus as $k) {{$k->indo ?? $k->asing}} @endforeach</span>
-								</strong> memiliki 1 (satu) arti. <strong>
-								<span class="cap">@foreach($kamus as $k) {{$k->indo ?? $k->asing}} @endforeach</span>
+								<span class="cap">@foreach($keys as $k) {{$k->indo ?? $k->asing}} @endforeach</span>
+								</strong> memiliki {{$kamus->count() ?? 1}} (satu) arti. <strong>
+								<span class="cap">@foreach($keys as $k) {{$k->indo ?? $k->asing}} @endforeach</span>
 								</strong> memiliki pengertian sebagai berikut:
 							</p>
 							<p class="bg-gray p-4">Menurut Kamus Istilah Hukum Sindikat, <strong>
-								<span class="sen">@foreach($kamus as $k) {{$k->indo ?? $k->asing}} @endforeach</span>
+								<span class="sen">@foreach($keys as $k) {{$k->indo ?? $k->asing}} @endforeach</span>
 								adalah </strong><span class="sen"> @foreach($kamus as $k)
-													{{$k->ket}}
+													{{$k->ket.". "}}
 												@endforeach </span>
 							</p>					
 							<hr class="mb-3 mt-5">

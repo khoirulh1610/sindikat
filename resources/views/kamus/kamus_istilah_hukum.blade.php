@@ -57,7 +57,7 @@
 												?>
 											</td>											
 											<td> 
-												<a href="{{url('kamus-istilah-hukum/'.$k->url)}}" class="link--with-decoration"><strong>Detail</strong></a>
+												<a href="{{strtolower(url('kamus-istilah-hukum/'.$k->url))}}" class="link--with-decoration"><strong>Detail</strong></a>
 											</td>
 										</tr>
 										@endforeach

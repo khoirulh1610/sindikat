@@ -28,11 +28,11 @@
 									<table class="" style="border:hidden; border: none;">
 										<tr class="text-left" style="border: none;">
 											<td width="10px">Indonesia</td>											
-											<td>: {{$url}}</td>											
+											<td>@foreach($keys as $k) {{$k->indo}}@endforeach</td>											
 										</tr>
 										<tr class="text-left" style="border: none;">
 											<td>Inggris/Belanda/Latin</td>											
-											<td>: 
+											<td> 
 												@foreach($kamus as $k)
 													{{$k->asing}}
 												@endforeach

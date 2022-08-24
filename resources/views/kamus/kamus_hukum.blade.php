@@ -48,10 +48,13 @@
 											<td>												
 												<?php
 													if($keyword){
-														$kuning = "<span style='background-color:yellow'>".$keyword."</span>";
-														$kuning2 = "<span style='background-color:yellow'>".ucwords($keyword)."</span>";
-														$text = str_replace($keyword,$kuning,$k->indo);														
-														$text = str_replace(ucwords($keyword),$kuning2,$text);														
+														$text =	$k->indo;
+														foreach ($keys as $key) {
+															$kuning = "<span style='background-color:yellow'>".$key."</span>";
+															$kuning2 = "<span style='background-color:yellow'>".ucwords($key)."</span>";
+															$text = str_replace($key,$kuning,$text);														
+															$text = str_replace(ucwords($key),$kuning2,$text);																													
+														}
 														echo $text;
 													}else{
 														echo $k->indo;
@@ -59,7 +62,7 @@
 												?>
 											</td>											
 											<td> 
-												<a href="{{url('kamus-hukum/'.$k->url)}}" class="btn btn--secondary">Detail {{$k->id}}</a>
+												<a href="{{strtolower(url('kamus-hukum/'.$k->url))}}" class="btn btn--secondary">Detail {{$k->id}}</a>
 											</td>
 										</tr>
 										@endforeach

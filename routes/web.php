@@ -31,7 +31,7 @@ Route::get('kamus-update',[KamusController::class, 'update'])->name('kamus.updat
 
 Route::get('istilah-hukum',[KamusController::class, 'istilah_hukum'])->name('kamus.istilah_hukum');
 Route::get('kbli',[KbliController::class, 'index'])->name('kbli');
-Route::post('hubungi-kami',[HubController::class,'hub_kami'])->name('hub.kami');
+// Route::post('hubungi-kami',[HubController::class,'hub_kami'])->name('hub.kami');
 
 // Route::get('/{slug}/{url}', function ($slug,$url) {
 //     if(View::exists($slug.'.'.$url)){
@@ -70,3 +70,4 @@ Route::any('/{url}', function ($url) {
     }
 });
 
+Route::post('hubungi-kami',[HubController::class,'hub_kami'])->name('hub.kami');
