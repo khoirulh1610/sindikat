@@ -20,9 +20,8 @@
 	<meta property="twitter:domain" content="sindikat.co.id">
 	<meta property="twitter:url" content="https://sindikat.co.id">
 	<meta name="twitter:title" content="{{$title}}">
-	<meta name="twitter:description" content="{{$description}}">
-	<meta name="twitter:image" content="https://sindikat.co.id/{{$image}}">
-
+	<meta name="twitter:description" content="{{$description}}">	
+	<meta name="twitter:image" content="{{$image ? 'https://sindikat.co.id/'.$image : 'https://sindikat.co.id/assets/img/sindikat-jasa-legalitas-og.jpg' }}">
 	<!-- Meta -->
 	<meta name="google-site-verification" content="#">
 	<link rel="stylesheet" type="text/css" href="/assets/css/theme-kamis.css">
@@ -385,14 +384,11 @@
 			}
 		});
 	</script>
-
+	@yield('js')
 	<script>
 		$(function () {
-  $('[data-toggle="popover"]').popover()
-})
+			$('[data-toggle="popover"]').popover()
+		})
 	</script>
-
-
-		@yield('js')
-
+	
 </body></html>

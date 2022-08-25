@@ -5,6 +5,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\KamusController;
 use App\Http\Controllers\KbliController;
 use App\Http\Controllers\HubController;
+use App\Http\Controllers\PenawaranController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -71,3 +72,14 @@ Route::any('/{url}', function ($url) {
 });
 
 Route::post('hubungi-kami',[HubController::class,'hub_kami'])->name('hub.kami');
+Route::get('test',[HubController::class,'KirimEmail'])->name('hub.KirimEmail');
+Route::get('get-price/{id}',function($id){
+    $price = \DB::table('price')->where('paket_id',$id)->get();
+    return $price;
+});
+Route::get('get-price-by-id/{id}',function($id){
+    $price = \DB::table('price')->where('id',$id)->first();
+    return $price;
+});
+
+Route::post('penawaran',[PenawaranController::class,'penawaran'])->name('hub.penawaran');

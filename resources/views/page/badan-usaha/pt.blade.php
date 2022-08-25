@@ -527,29 +527,29 @@
 
 	<div id="badan-hukum" class="modalDialog">
 		<div>
-			<p><strong>Badan Hukum</strong></p>
-			<p>Badan atau organisasi yang oleh hukum diperlakukan sebagai orang</p>
+			<h6>Badan Hukum</h6>
+			<p>Badan Hukum adalah badan atau organisasi yang oleh hukum diperlakukan sebagai orang (sebagai subyek hukum). Status badan hukum diberikan oleh Menteri Hukum dan HAM dengan dikeluarkannya Surat Keputusan Pengesahan</p>
 			@include('layouts.tutup')
 		</div>
 	</div>
 	<div id="dividen" class="modalDialog">
 		<div>
-			<p><strong>Dividen</strong></p>
+			<h6>Dividen</h6>
 			<p>Dividen adalah bagian keuntungan perusahaan yang dibagikan kepada pemegang saham. Jumlah dividen yang akan dibagikan diusulkan oleh Dewan Direksi perusahaan dan disetujui di dalam Rapat Umum Pemegang Saham (RUPS)</p>
 			@include('layouts.tutup')
 		</div>
 	</div>
 	<div id="pt-perorangan" class="modalDialog">
 		<div>
-			<p><strong>PT Perorangan</strong></p>
-			<p>Badan hukum perorangan atau badan hukum yang didirikan oleh 1 (satu) orang yang memenuhi kriteria Usaha Mikro dan Kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai Usaha Mikro dan Kecil</p>
+			<h6>PT Perorangan</h6>
+			<p>PT Perorangan adalah badan hukum perorangan atau badan hukum yang didirikan oleh 1 (satu) orang yang memenuhi kriteria Usaha Mikro dan Kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai Usaha Mikro dan Kecil</p>
 			@include('layouts.tutup')
 		</div>
 	</div>
 	<div id="oss-rba" class="modalDialog">
 		<div>
-			<p><strong>OSS RBA</strong></p>
-			<p>Perizinan berusaha yang diberikan kepada pelaku usaha untuk memulai dan menjalankan kegiatan usahanya yang dinilai berdasarkan tingkat risiko kegiatan usaha </p>	
+			<h6>OSS RBA</h6>
+			<p>OSS RBA adalah sistem Perizinan berusaha yang diberikan kepada pelaku usaha untuk memulai dan menjalankan kegiatan usahanya yang dinilai berdasarkan tingkat risiko kegiatan usaha. Ada 4 (empat) macam risiko usaha, yaitu risiko rendah, menengah rendah, menengah tinggi dan tinggi </p>	
 			@include('layouts.tutup')
 		</div>
 	</div>

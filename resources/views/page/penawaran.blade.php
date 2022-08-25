@@ -7,6 +7,7 @@
 <div class="main-content-wrapper">
 	<section>
 		<div class="container">
+            <form action="{{url('penawaran')}}" method="post">                
 			<div class="row medium-padding60 mb60 mt-3">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="row">
@@ -16,16 +17,23 @@
 								<!-- pilih layanan start -->
 								<p class="link--with-decoration">Pilih Layanan</p>
                                 <p class="">
-                                    <select class="mb-4" data-dropdown-css-class="woox--select-bordered-dropdown" data-minimum-results-for-search="Infinity">
+                                    @csrf
+                                    <select class="mb-4" data-dropdown-css-class="woox--select-bordered-dropdown" id="packet" name="packet_id" data-minimum-results-for-search="Infinity">
                                         <option data-display="Choose country">Pilih Layanan</option>
-                                        <option value="1">PT</option>
+                                        <?php
+                                            $packet = DB::table('packet')->get();                                            
+                                        ?>
+                                        @foreach($packet as $p)
+                                            <option value="{{$p->id}}">{{$p->name_packet}}</option>
+                                        @endforeach
+                                        <!-- <option value="1">PT</option>
                                         <option value="2">PT Perorangan</option>
                                         <option value="3">PT PMA</option>
                                         <option value="4">CV</option>
                                         <option value="5">PT Perorangan</option>
-                                        <option value="6">PT PMA</option>
+                                        <option value="6">PT PMA</option> -->
                                     </select>
-                                    <select class="mb-1" data-dropdown-css-class="woox--select-bordered-dropdown" data-minimum-results-for-search="Infinity">
+                                    <select class="mb-1" data-dropdown-css-class="woox--select-bordered-dropdown" name="price_id" data-minimum-results-for-search="Infinity" id="price_id">
                                         <option data-display="Choose country">Detail Layanan</option>
                                         <option value="1">Pendirian PT</option>
                                         <option value="2">PT + Izin</option>
@@ -36,11 +44,11 @@
                                 <!-- pilih layanan end -->
                                 <!-- deskripsi start -->
                                 <p class="link--with-decoration">Deskripsi</p>
-                                <p class="">Termasuk: <strong>Akta Notaris, SK Menteri, NPWP, SKT Pajak, NIB, Izin Usaha (OSS & NIB) termasuk sewa alamat kantor di virtual office Jakarta selama 1 tahun.</strong></p>
+                                <p class="">Termasuk: <strong id="keterangan">Akta Notaris, SK Menteri, NPWP, SKT Pajak, NIB, Izin Usaha (OSS & NIB) termasuk sewa alamat kantor di virtual office Jakarta selama 1 tahun.</strong></p>
                                 <!-- deskripsi end -->
                                  <!-- harga start -->
                                  <p class="link--with-decoration">Harga</p>
-                                <h4 class=""><strong>Rp 8.500.000</strong></h4>
+                                <h4 class=""><strong id="price">Rp 8.500.000</strong></h4>
                                 <!-- harga end -->
                                 <hr class="divider divider--style16 m-4">
                                 <!-- data pemesan start -->
@@ -78,24 +86,55 @@
 						<div class="col-lg-6 right">
 							<div class="content">
 								<div class="align-center hidden-xs">
-									<img src="/assets/img/poster-pt-izin-vo.jpg" class="w-75 bg-gray mt-0" alt="sindikat 4" >
+									<img id="img_banner" src="/assets/img/poster-pt-izin-vo.jpg" class="w-75 bg-gray mt-0" alt="sindikat 4" >
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+            </form>
 		</div>
 	</section>
 
 </div>
 
-    @include('layouts.peralatan')
+@include('layouts.peralatan')
+@include('layouts.bertanya')
+@endsection
 
-    @include('layouts.bertanya')
+@section('js')
+<script>
+    var data_packet;
+    $('#packet').on('change', function (e) {        
+        $('#price_id').empty();
+        $('#price_id').append('<option data-display="Choose country">Detail Layanan</option>');
+        console.log($(this).val());
+        $.ajax({
+            url: "{{url('get-price')}}/"+ $(this).val(),
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                data_packet = data;                
+                data.forEach(function(item, index){
+                    console.log(item);                    
+                    $('#price_id').append('<option value="'+item.id+'">'+item.name+'</option>');
+                });               
+            }
+        });        
+    });
 
-
-
-
-
+    $('#price_id').on('change', function (e) {
+        $.ajax({
+            url: "{{url('get-price-by-id')}}/"+ $(this).val(),
+            type: 'GET',
+            dataType: 'json',
+            success: function (item) {
+                $('#price').html('Rp '+item.harga.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ","));
+                $('#keterangan').html(item.keterangan);  
+                $('#img_banner').attr('src', item.image);           
+            }
+        });     
+    });
+</script>
 @endsection

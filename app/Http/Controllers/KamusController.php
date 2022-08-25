@@ -31,7 +31,24 @@ class KamusController extends Controller
         ->where('url',$url)
         ->groupBy('indo','url')         
         ->get();
-        return view('kamus.kamus_hukum_detail', compact('kamus','url','keys'));
+        $keyword = "";
+        foreach ($keys as $key) {
+            $keyword .= $key->indo.' ';
+        }
+        $description = "";
+        foreach ($kamus as $k) {
+            $description .= $k->asing.'. ';
+        }
+        $data = [
+            'description'=>$description,            
+            'keywords'=>$keyword,
+            'content'=>$description,
+            'title'=>$keyword,
+            'url'=>$url,
+            'keys'=>$keys,
+            'kamus'=>$kamus
+        ];   
+        return view('kamus.kamus_hukum_detail', $data);
     }
 
 
@@ -63,7 +80,24 @@ class KamusController extends Controller
         ->whereNotNull('ket')
         ->groupBy('indo','asing')
         ->get();
-        return view('kamus.kamus_istilah_hukum_detail', compact('kamus','url','keys'));
+        $keyword = "";
+        foreach ($keys as $key) {
+            $keyword .= $key->indo.'';
+        }
+        $description = "";
+        foreach ($kamus as $k) {
+            $description .= $k->ket.'. ';
+        }
+        $data = [
+            'description'=>$description,            
+            'keywords'=>$keyword,
+            'content'=>$description,
+            'title'=>$keyword.' - Sindikat',
+            'url'=>$url,
+            'keys'=>$keys,
+            'kamus'=>$kamus
+        ];
+        return view('kamus.kamus_istilah_hukum_detail', $data);
     }
 
     public function update()
