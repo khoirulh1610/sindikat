@@ -11,45 +11,45 @@
 <div class="main-content-wrapper">
 
 	<section>
-		<div class="page-cover bg-cover full60"></div>
 		<div class="container">
-			<div class="cover-slide3">
-				<div class="contents-inner contents-inner-tk">
-					<h1 class="uppercase align-center heading">Kamus Hukum IND-ENG</h1>
-				</div>
-			</div>
-			<div class="row medium-padding100">
+			<div class="row medium-padding60 mt-5">
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mb30" data-mh="equal-block">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p class="link text-dark mb-2 mt-2 hidden-xs" aria-label="breadcrumb"><strong><a href="/">Home</a></strong> | Peralatan | <a href="/kamus-hukum" class="line">Kamus Hukum</a></p>
+							<hr class="mb-4 hidden-xs">
+							
 							<form action="" method="get">
-							<div class="box-black">
+							<div class="box-black p-4 mt-2">
 								<div class="form-group">
-									<h3 class="link" style="color:#fff">KATA KUNCI</h3>
-									<input type="text" class="form-control" id="keyword" name="keyword" placeholder="Kata Kunci" value="{{$keyword??''}}">
+									<h1 class="link text-white mb-4 h4 uppercase">Kamus Hukum</h1>
+									<p class="text-white">Cari terjemahan ke Bahasa Inggris / Latin / Belanda. Contoh: cari terjemahan <strong>rapat umum pemegang saham</strong></p>
+									<input type="text" class="form-control" id="keyword" name="keyword" placeholder="Tulis..." value="{{$keyword??''}}">
 								</div>
-								<button type="submit" class="btn btn--x-large btn--primary btn--hover-decoration full-width text-white">Cari</button>
+								<button type="submit" class="btn btn--x-large btn--hover-decoration full-width bg-blue mt30">Cari</button>
+								<a href="/kamus-hukum/">
+									<span class="btn btn--x-medium full-width bg-transparent text-white mt30">Reset</span>
+								</a>
 							</div>
 							</form>
 						</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-4">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3 p-2">
 						@if($kamus)
-							<h3>Hasil Pencarian</h3>
+							<p class="link text-dark mb-3 mt-2">Hasil Pencarian <strong>'{{trim($keyword)}}'</strong></p>
 							<table class="table display">
-									<thead style="background-color:black">
-										<th>No</th>
+									<thead class="bg-dark">
 										<th>Indonesia</th>										
-										<th>Lihat</th>
+										<th>Terjemahan</th>
 									</thead>
-									<tbody>										
+									<tbody>
 										@foreach($kamus as $k)
 										<tr>
-											<td>{{$loop->iteration}}</td>
-											<td>												
+											<td class="align-left cap">
 												<?php
 													if($keyword){
 														$text =	$k->indo;
 														foreach ($keys as $key) {
+															$key = str_replace('/', '',strtolower($key));
 															$kuning = "<span style='background-color:yellow'>".$key."</span>";
 															$kuning2 = "<span style='background-color:yellow'>".ucwords($key)."</span>";
 															$text = str_replace($key,$kuning,$text);														
@@ -62,7 +62,7 @@
 												?>
 											</td>											
 											<td> 
-												<a href="{{strtolower(url('kamus-hukum/'.$k->url))}}" class="btn btn--secondary">Detail {{$k->id}}</a>
+												<a href="{{strtolower(url('kamus-hukum/'.$k->url))}}" class="link--with-decoration"><strong>Detail</strong></a>
 											</td>
 										</tr>
 										@endforeach
@@ -72,16 +72,30 @@
 								{{$kamus->appends(['keyword'=>$keyword])->links()}}							
 							@else
 								{{$kamus->links()}}
-							@endif		
+							@endif							
 						@endif
 						</div>	
 					</div>
 				</div>
 
-				@include('layouts.rsidebar')
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="">
+						<!-- here -->
+						<p class="text-dark"><strong>Peralatan Sindikat lainnya!</strong></p>
+						<hr class="mb-3">
+						<h5 class="uppercase text-dark uppercase mt-0">Istilah Hukum</h5>
+						<p class="text-dark mt-3 mb-0">Ribuan istilah hukum Indonesia beserta dengan arti dan penjelasan</p>
+						<a href="/istilah-hukum" class="hover"><img src="/assets/img/kamus-istilah-hukum.jpg" alt="kamus istilah hukum " class="bg-gray mt-3"></a>
+						<!-- here -->
+						<h5 class="uppercase  text-dark mt-4 uppercase">KBLI 2020</h5>
+						<p class="text-dark mt-3 mb-0">Lihat tabel kode KBLI 2020 yang telah kami susun</p>
+						<a href="/kbli" class="hover"><img src="/assets/img/kbli-2020.jpg" alt="kbli 2020 sindikat" class="bg-gray mt-3"></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
 </div>
+@include('hubungi-kami-mobile')
 @endsection

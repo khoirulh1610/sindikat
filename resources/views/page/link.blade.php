@@ -32,27 +32,54 @@
                                     <a href="https://api.whatsapp.com/send?phone=62811899895&text=Hi%20Sindikat%F0%9F%95%B5%EF%B8%8F%20saya%20mau%20konsultasi%20tatap%20muka%20">
                                         <p class="bg-green text-dark">Buat Janji Konsultasi Tatap Muka</p>
                                     </a>
-									<a href="#">
+									<a href="https://g.page/r/CSA8M5Di8EfVEAE">
                                         <p class="bg-green text-dark">Google Maps Kantor</p>
                                     </a>
+									<a href="/formulir-online">
+                                        <p class="bg-green text-dark">Formulir Online</p>
+                                    </a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4 right ">
-                                <div class="heading-text mb-3"><strong>Formulir Online:</strong></div>
-                                    <a href="#">
-                                        <p class="bg-green text-dark">Formulir PT / PMA</p>
-                                    </a>
-                                    <a href="#">
-                                        <p class="bg-green text-dark">Formulir PT Perorangan</p>
-                                    </a>
-                                    <a href="#">
-                                        <p class="bg-green text-dark">Formulir CV</p>
-                                    </a>
-                                    <a href="#">
-                                        <p class="bg-green text-dark">Formulir Firma / Persekutuan Perdata</p>
-                                    </a>
-                                    <a href="#">
-                                        <p class="bg-green text-dark">Formulir Perkumpulan / Yayasan</p>
-                                    </a>
+							<div class="col-lg-4 col-lg-offset-4 right ">
+								<h3 class="uppercase bg-green mb-3 uppercase">Bertanya </h3>
+								<form class="contact-form login-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="{{route('hub.kami')}}" novalidate="novalidate">
+									@csrf()
+									<div class="row">
+										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+											<div class="form-group label-floating is-empty">
+												<label class="input-label control-label">Tulis Pesan: <abbr class="required" title="required">*</abbr></label>
+												<textarea name="message" class="form-control input--squared height-140" placeholder="" required=""></textarea>
+											<span class="material-input"></span></div>
+										</div>
+										
+									</div>
+									<div class="row mt-2">
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+											<div class="form-group label-floating">
+												<label class="input-label control-label">Nama: <abbr class="required" title="required">*</abbr></label>
+												<input name="name" class="form-control input--squared" type="text" value="" required="">
+											<span class="material-input"></span></div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+											<div class="form-group label-floating">
+												<label class="input-label control-label">HP: <abbr class="required" title="required">*</abbr></label>
+												<input name="phone" class="form-control input--squared" type="number" value="" required="">
+											<span class="material-input"></span></div>
+										</div>
+									</div>
+									<div class="row mt-3">
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+											<div class="form-group label-floating is-empty">
+												<label class="input-label control-label">Email: <abbr class="required" title="required">*</abbr></label>
+												<input name="email" class="form-control input--squared" type="email" value="" required="">
+											<span class="material-input"></span></div>
+										</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+										<button class="btn--medium full-width bg-blue text-white no-border-radius">Kirim</button>
+										</div>
+
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -115,25 +142,28 @@
 								<a href="https://api.whatsapp.com/send?phone=62811899895&text=Hi%20Sindikat%F0%9F%95%B5%EF%B8%8F%20saya%20mau%20konsultasi%20tatap%20muka%20">
 									<p class="bg-green text-dark">Buat Janji Konsultasi Tatap Muka</p>
 								</a>
-								<a href="#">
-									<p class="bg-green text-dark">Google Maps Kantor</p>
+								<a href="https://g.page/r/CSA8M5Di8EfVEAE">
+                                        <p class="bg-green text-dark">Google Maps Kantor</p>
+                                    </a>
+								<a href="/formulir-online">
+									<p class="bg-green text-dark">Formulir Online</p>
 								</a>
 						</div>
 						<div class="col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4 right ">
 							<div class="heading-text mb-3"><strong>Formulir Online:</strong></div>
-								<a href="#">
+								<a href="/formulir-online">
 									<p class="bg-green text-dark">Formulir PT / PMA</p>
 								</a>
-								<a href="#">
+								<a href="/formulir-online">
 									<p class="bg-green text-dark">Formulir PT Perorangan</p>
 								</a>
-								<a href="#">
+								<a href="/formulir-online">
 									<p class="bg-green text-dark">Formulir CV</p>
 								</a>
-								<a href="#">
+								<a href="/formulir-online">
 									<p class="bg-green text-dark">Formulir Firma / Persekutuan Perdata</p>
 								</a>
-								<a href="#">
+								<a href="/formulir-online">
 									<p class="bg-green text-dark">Formulir Perkumpulan / Yayasan</p>
 								</a>
 						</div>

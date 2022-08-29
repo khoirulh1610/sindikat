@@ -8,12 +8,17 @@
 </head>
 
 <body>
-
-	<h1>Dear {{$data->name ?? ''}}, </h1>
+	<h1>sindikat.co.id</h1>
+	<h1>Nomor  {{ $data['id'] ?? ''}}, </h1>
+	<h1>Dear {{ $data['name'] ?? ''}}, </h1>
+	<h1>Phone {{ $data['phone'] ?? ''}}, </h1>
+	<h1>Email {{ $data['email'] ?? ''}}, </h1>
 	<p>
 	<h2>Terimakasih telah menghubungi kami</h2>
 	</p>
-	<p> {{ $data->packet->name_packet ?? '' }}</p>
+	<p>Harga : Rp. {{ number_format($data['harga']) ?? 0 }}</p>
+	<p>PPN : Rp. {{ number_format($data['ppn']) ?? 0 }}</p>
+	<p>Description:  {{ $data['keterangan'] ?? '' }}</p>
 	<p>
 	<h3>Kami akan segera menghubungi anda</h3>
 	<h3>Salam,</h3>
@@ -52,25 +57,25 @@
 								<tr>
 									<td width="40%" style="padding:4px">Nama Pemesan:</td>
 									<td width="60%" style="padding:4px"><b
-											style="color:#52565e;font-weight:normal">[name]</b>
+											style="color:#52565e;font-weight:normal">{{ $data['name'] ?? ''}}</b>
 									</td>
 								</tr>
 								<tr>
 									<td width="40%" style="padding:4px">Handphone:</td>
 									<td width="60%" style="padding:4px"><b
-											style="color:#52565e;font-weight:normal">0[phone]</b>
+											style="color:#52565e;font-weight:normal">{{ $data['phone'] ?? ''}}</b>
 									</td>
 								</tr>
 								<tr>
 									<td width="40%" style="padding:4px">Email:</td>
 									<td width="60%" style="padding:4px"><b
-											style="color:#52565e;font-weight:normal">[email]</b>
+											style="color:#52565e;font-weight:normal">{{ $data['email'] ?? ''}}</b>
 									</td>
 								</tr>
 								<tr>
 									<td width="40%" style="padding:4px">No. Referensi:</td>
 									<td width="60%" style="padding:4px"><b
-											style="color:#52565e;font-weight:normal">[orderid]</b>
+											style="color:#52565e;font-weight:normal">{{ $data['id'] ?? ''}}</b>
 									</td>
 								</tr>
 								<tr>
@@ -155,7 +160,7 @@
                       padding: 0;
                       text-align: right;
                     ">
-											<span>[total]</span><br>
+											<span>Rp. {{ number_format($data['harga']) ?? 0 }}</span><br>
 										</p>
 									</td>
 								</tr>
@@ -226,7 +231,7 @@
                       font-size: 14px;
                       line-height: 1.6;
                     ">
-											Rp
+											Rp. {{ number_format($data['ppn']) ?? 0 }}
 										</span>
 
 										<p style="

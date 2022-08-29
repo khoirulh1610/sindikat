@@ -15,31 +15,29 @@
 @section('content')
 <div class="main-content-wrapper">
 	<section>
-		<div class="page-cover bg-cover full60"></div>
 		<div class="container">
-			<div class="cover-slide3">
-				<div class="contents-inner contents-inner-tk">
-					<h1 class="uppercase align-center heading">KBLI</h1>
-				</div>
-			</div>
-			<div class="row medium-padding100">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30" data-mh="equal-block">					
+			<div class="row medium-padding60 mt-5">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30" data-mh="equal-block">			
 					<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p class="link text-dark mb-2 mt-2 hidden-xs" aria-label="breadcrumb"><strong><a href="/">Home</a></strong> | Peralatan | <a href="/kbli" class="line">KBLI</a></p>
+							<hr class="mb-4 hidden-xs">
+							
 							<form action="" method="get">
-							<div class="box-black">
+							<div class="box-black p-4 mt-2">
 								<div class="form-group">
-									<h3 class="link" style="color:#fff">KATA KUNCI</h3>
-									<input type="text" class="form-control text--x-md" id="keyword" name="keyword" placeholder="Kata Kunci" value="{{$keyword??''}}">
+									<h1 class="link text-white mb-4 h4 uppercase">KBLI</h1>
+									<p class="text-white">Cari kode KBLI 2020 sebagai bidang dan kegiatan usaha kamu</p>
+									<input type="text" class="form-control" id="keyword" name="keyword" placeholder="Tulis..." value="{{$keyword??''}}">
 								</div>
-								<button type="submit" class="btn btn--x-md btn--primary btn--hover-decoration full-width text-white">Cari</button>
+								<button type="submit" class="btn btn--x-large btn--hover-decoration full-width bg-blue mt30">Cari</button>
 							</div>
 							</form>
-						</div>						
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 m-2">							
-							<div class="box-black">									
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">							
+							<div class="box-black table-responsive" style="overflow-x: auto">									
 									<table class="table">
-										<thead style="background-color:black">
+										<thead class="bg-dark">
 											<th>KODE</th>
 											<th>Judul</th>
 											<th>Deskripsi</th>
@@ -58,7 +56,7 @@
 														$title = str_replace(ucwords($keyword),$kuning2,$title);												
 													}
 												?>
-												<td>{!!$kode!!}</td>
+												<td><strong>{!!$kode!!}</strong></td>
 												<td>{!!$title!!}</td>
 												<td>{{$k->detail}}</td>
 											</tr>
@@ -72,15 +70,22 @@
 									@endif		
 							</div>		
 
-						</div>						
+						</div>		
 					</div>					
 				</div>
 				<!-- @include('layouts.rsidebar') -->
 			</div>
 		</div>
 	</section>	
+	@include('layouts.peralatan')
+
+
+	
 </div>
+@include('hubungi-kami-mobile')
 @endsection
+
+
 
 @section('js')
 <script>

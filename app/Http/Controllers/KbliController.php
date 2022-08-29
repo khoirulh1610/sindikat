@@ -14,6 +14,14 @@ class KbliController extends Controller
         if($keyword){
             $kbli = Kbli::where('code',$keyword)->orWhere('title','like','%'.$keyword.'%')->paginate(20);        
         }
-        return view('kbli.index',compact('kbli','keyword'));
+
+        $data=[
+            'kbli' => $kbli,
+            'keyword' => $keyword,
+            'title' => 'KBLI',
+            'description' => 'KBLI',            
+        ];
+        
+        return view('kbli.index',$data);
     }
 }

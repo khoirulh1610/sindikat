@@ -1,7 +1,14 @@
 <div id="pagepiling" class="hidden-xs">
-	<div class="pill-inner-xx ">		
-		<div class="me-intro hidden-xs hidden-sm"><div class="me-block"><img src="/assets/img/orang2.png"></div></div>
-		<!-- <div class="section hidden-xs hidden-sm" id="section1"></div> -->
+	<div class="pill-inner-xx ">
+		<div id="cover-text" class="slide cover-slide pp-easing hidden-xs hidden-sm">
+			<div class="contents-inner" style="text-align:center">
+				<h1 class="bg-green">Hubungi Kami</h1>
+				<br>
+				<p class="text-white mt-4 bounce"><strong>Scroll Down</strong></p>
+			</div>
+		</div>
+		<div class="me-intro hidden-xs hidden-sm"><div class="me-block"><img src="/assets/img/orang3.png"></div></div>
+		<div class="section hidden-xs hidden-sm" id="section1"></div>
 		<div class="section" id="section2">
 			<div class="intro" id="sindikat">
 				<div class="intro-inner mt-xs-5">
@@ -27,11 +34,11 @@
 
 							</div>
 							<div class="col-lg-4 col-lg-offset-4 right ">
-								<h3 class="uppercase bg-green mb-3 uppercase">Bertanya Yogi</h3>
+								<h3 class="uppercase bg-green mb-3 uppercase">Bertanya</h3>
 								<form class="contact-form login-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="{{route('hub.kami')}}" novalidate="novalidate">
 									@csrf()
 									<div class="row">
-										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-2">
 											<div class="form-group label-floating is-empty">
 												<label class="input-label control-label">Tulis Pesan: <abbr class="required" title="required">*</abbr></label>
 												<textarea name="message" class="form-control input--squared height-140" placeholder="" required=""></textarea>
@@ -49,16 +56,14 @@
 												<input name="phone" class="form-control input--squared" type="number" value="" required="">
 											<span class="material-input"></span></div>
 										</div>
-									</div>
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3">
 											<div class="form-group label-floating is-empty">
 												<label class="input-label control-label">Email: <abbr class="required" title="required">*</abbr></label>
 												<input name="email" class="form-control input--squared" type="email" value="" required="">
 											<span class="material-input"></span></div>
 										</div>
 
-										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3">
 										<button class="btn--medium full-width bg-blue text-white no-border-radius">Kirim</button>
 										</div>
 

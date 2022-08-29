@@ -31,8 +31,6 @@ class PenawaranMail extends Mailable
     {
         return $this
         ->subject('PENAWARAN - sindikat')        
-        ->markdown('emails.penawaran', [
-            'data' => $this->data
-        ]);
+        ->markdown('emails.penawaran',['data'=>$this->data]);        
     }
 }

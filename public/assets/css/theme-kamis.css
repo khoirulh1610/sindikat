@@ -8264,9 +8264,9 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
   position: absolute;
   z-index: 3;
   bottom: 120px;
-  right: 0%;
-  height: 150px;
-  width: 150px;
+  right: -5%;
+  height: 140px;
+  width: 140px;
   background: transparent;
   text-align: center;
   overflow: hidden;
@@ -8295,7 +8295,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
 }
 .me-intro-samping .me-block {
   position: absolute;
-  left: 50%;
+  left: 27px;
   bottom: 0;
   width: 100%;
   height: 100%;
@@ -8315,7 +8315,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
 .me-intro-samping img {
   display: block;
   position: relative;
-  right: 20%;
+  right: 21%;
   width: auto;
   height: 100%;
   user-select: none;
@@ -8352,9 +8352,9 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
   position: absolute;
   z-index: 999;
   bottom: 270px;
-  right: 0%;
-  height: 120px;
-  width: 220px;
+  right: -1%;
+  height: 103px;
+  width: 123px;
   background: transparent;
   text-align: center;
   overflow: hidden;
@@ -8367,7 +8367,7 @@ h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.upperca
 }
 .me-intro-get .me-block {
   position: absolute;
-  left: 60%;
+  left: 21%;
   bottom: 0;
   width: 100%;
   height: 100%;
@@ -8992,3 +8992,5 @@ html {
 .sen {
   text-transform: lowercase;
 }
+
+/* yogi */

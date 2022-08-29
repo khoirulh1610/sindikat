@@ -27,13 +27,13 @@ class PenawaranController extends Controller
                 'email'=>$request->email,
                 'name'=>$request->name,  
                 'phone'=>$request->phone,
-                'created_at'=>Date('Y-m-d H:i:s'),
+                'created_at'=>Date('Y-m-d H:i:s'),                
                 'harga'=>$price->harga,
                 'ppn'=>$price->ppn,
             ];
-            DB::table('penawaran')->insert($penawaran);
-            $penawaran['packet'] = $packet;
-            $penawaran['price'] = $price;
+            $id = DB::table('penawaran')->insertGetId($penawaran);
+            $penawaran['keterangan'] = $price->keterangan;            
+            $penawaran['id'] = $id;
             Mail::to($request->email, $request->name)->send(new PenawaranMail($penawaran));        
             return redirect()->back()->with('success','Terimakasih, Kami akan segera menghubungi anda...');
         }else{

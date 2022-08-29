@@ -38,7 +38,7 @@
 
 							</div>
 							<div class="col-lg-4 col-lg-offset-4 right ">
-								<h3 class="uppercase bg-green mb-3 uppercase">Bertanya Yogi</h3>
+								<h3 class="uppercase bg-green mb-3 uppercase">Bertanya yogi</h3>
 								<form class="contact-form login-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="{{route('hub.kami')}}" novalidate="novalidate">
 									@csrf()
 									<div class="row">
@@ -48,7 +48,10 @@
 												<textarea name="message" class="form-control input--squared height-140" placeholder="" required=""></textarea>
 											<span class="material-input"></span></div>
 										</div>
-										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+										
+									</div>
+									<div class="row mt-2">
+									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 											<div class="form-group label-floating">
 												<label class="input-label control-label">Nama: <abbr class="required" title="required">*</abbr></label>
 												<input name="name" class="form-control input--squared" type="text" value="" required="">
@@ -61,7 +64,7 @@
 											<span class="material-input"></span></div>
 										</div>
 									</div>
-									<div class="row">
+									<div class="row mt-3">
 										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 											<div class="form-group label-floating is-empty">
 												<label class="input-label control-label">Email: <abbr class="required" title="required">*</abbr></label>

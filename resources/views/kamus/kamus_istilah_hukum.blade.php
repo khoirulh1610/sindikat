@@ -16,11 +16,14 @@
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mb30" data-mh="equal-block">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p class="link text-dark mb-2 mt-2 hidden-xs" aria-label="breadcrumb"><strong><a href="/">Home</a></strong> | Peralatan | <a href="/istilah-hukum" class="line">Istilah Hukum</a></p>
+							<hr class="mb-4 hidden-xs">
+							
 							<form action="" method="get">
 							<div class="box-black p-4">
 								<div class="form-group">
-									<h2 class="link text-white mb-4 h4 uppercase">Istilah Hukum</h2>
-									<p class="text-white">Cari istilah hukum beserta dengan pengertian dan penjelasan!</p>
+									<h1 class="link text-white mb-4 h4 uppercase">Istilah Hukum</h1>
+									<p class="text-white">Cari istilah hukum beserta dengan penjelasan. Contoh: cari arti <strong>saham</strong></p>
 									<input type="text" class="form-control" id="keyword" name="keyword" placeholder="Tulis..." value="{{$keyword??''}}">
 								</div>
 								<button type="submit" class="btn btn--x-large btn--hover-decoration full-width bg-blue mt30">Cari</button>
@@ -43,13 +46,16 @@
 										<tr>
 											<td class="align-left cap">
 												<?php
-
 													$istilah = $k->indo ?? $k->asing;
 													if($keyword){
-														$kuning = "<span style='background-color:yellow'>".$keyword."</span>";
-														$kuning2 = "<span style='background-color:yellow'>".ucwords($keyword)."</span>";
-														$text = str_replace($keyword,$kuning,$istilah);														
-														$text = str_replace(ucwords($keyword),$kuning2,$text);														
+														$text =	$k->indo;
+														foreach ($keys as $key) {
+															$key = str_replace('/', '',strtolower($key));														
+															$kuning = "<span style='background-color:yellow'>".$key."</span>";
+															$kuning2 = "<span style='background-color:yellow'>".ucwords($key)."</span>";
+															$text = str_replace($key,$kuning,$istilah);														
+															$text = str_replace(ucwords($key),$kuning2,$text);																												
+														}
 														echo $text;
 													}else{
 														echo $istilah;
@@ -57,7 +63,7 @@
 												?>
 											</td>											
 											<td> 
-												<a href="{{strtolower(url('kamus-istilah-hukum/'.$k->url))}}" class="link--with-decoration"><strong>Detail</strong></a>
+												<a href="{{strtolower(url('istilah-hukum/'.$k->url))}}" class="link--with-decoration"><strong>Detail</strong></a>
 											</td>
 										</tr>
 										@endforeach
@@ -92,4 +98,7 @@
 	</section>
 
 </div>
+
+@include('hubungi-kami-mobile')
+
 @endsection

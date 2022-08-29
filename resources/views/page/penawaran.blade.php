@@ -41,17 +41,11 @@
                                         <option value="4">PT + Izin + VO + PKP</option>
                                     </select>
                                 </p>
-                                <!-- pilih layanan end -->
-                                <!-- deskripsi start -->
                                 <p class="link--with-decoration">Deskripsi</p>
-                                <p class="">Termasuk: <strong id="keterangan">Akta Notaris, SK Menteri, NPWP, SKT Pajak, NIB, Izin Usaha (OSS & NIB) termasuk sewa alamat kantor di virtual office Jakarta selama 1 tahun.</strong></p>
-                                <!-- deskripsi end -->
-                                 <!-- harga start -->
+                                <p class=""><strong id="keterangan">-</strong></p>
                                  <p class="link--with-decoration">Harga</p>
-                                <h4 class=""><strong id="price">Rp 8.500.000</strong></h4>
-                                <!-- harga end -->
+                                <h4 class=""><strong id="price">Rp 0,00</strong></h4>
                                 <hr class="divider divider--style16 m-4">
-                                <!-- data pemesan start -->
                                 <p class="link--with-decoration">Kirim Penawaran Kepada:</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -86,7 +80,7 @@
 						<div class="col-lg-6 right">
 							<div class="content">
 								<div class="align-center hidden-xs">
-									<img id="img_banner" src="/assets/img/poster-pt-izin-vo.jpg" class="w-75 bg-gray mt-0" alt="sindikat 4" >
+									<img id="img_banner" src="" class="w-75 bg-gray mt-0" alt="Poster Layanan" >
 								</div>
 							</div>
 						</div>

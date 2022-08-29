@@ -13,7 +13,7 @@
 				<div class="container">
 					<div class="cover-slide3 align-left visible-xs">
 						<div class="contents-inner contents-inner-judul">
-							<h1 class="uppercase align-center heading"> Jasa <br> Pembuatan PT</h1>
+							<h1 class="uppercase align-center heading"> Jasa <br> Pembuatan PT AVIV</h1>
 						</div>
 					</div>
 					<div class="cover-slide3 align-left hidden-xs">

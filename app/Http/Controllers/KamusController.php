@@ -21,7 +21,14 @@ class KamusController extends Controller
             ->paginate(25);                               
         }                 
         $keyword = $request->keyword ?? null;
-        return view('kamus.kamus_hukum', compact('kamus','keyword','keys'));
+        $data = [            
+            'description'=>'Kamus Hukum 11.000++ Istilah Hukum di Indonesia. Terjemahan Indonesia ke Inggris / Latin / Belanda',           
+            'keyword'=>$keyword,            
+            'title'=>'Kamus Hukum - Terjemahan Indonesia - Inggris',            
+            'keys'=>$keys,
+            'kamus'=>$kamus
+        ];   
+        return view('kamus.kamus_hukum', $data);
     }
 
     public function kamus_hukum_detail(Request $request,$url)
@@ -40,10 +47,11 @@ class KamusController extends Controller
             $description .= $k->asing.'. ';
         }
         $data = [
-            'description'=>$description,            
+            // 'description'=>$description,  
+            'description'=>'Terjemahan ' .$keyword. ' dari Bahasa Indonesia ke Bahasa Inggris / Latin / Belanda. Kamus Hukum Terlengkap',           
             'keywords'=>$keyword,
             'content'=>$description,
-            'title'=>$keyword,
+            'title'=>'Terjemahan Bahasa - ' .$keyword,
             'url'=>$url,
             'keys'=>$keys,
             'kamus'=>$kamus
@@ -58,15 +66,24 @@ class KamusController extends Controller
     {
         $kamus = null;
         if($request->keyword){
+            $keys = explode(' ',$request->keyword);
+            $cari = implode('%',explode(' ',$request->keyword));
             $kamus = KamusHukum::select('indo','url')
-            ->where('indo','like','%'.$request->keyword.'%')                        
+            ->where('indo','like','%'.$cari.'%')                        
             ->whereNotNull('ket')
             ->groupBy('indo','url')    
             ->orderBy('indo')        
             ->paginate(25);                               
         }                 
         $keyword = $request->keyword ?? null;
-        return view('kamus.kamus_istilah_hukum', compact('kamus','keyword'));
+        $data = [            
+            'description'=>'Cari Pengertian Istilah Hukum. Ada 2.000++ Istilah Hukum. Cari Sekarang',           
+            'keyword'=>$keyword ?? '',            
+            'title'=>'Istilah Hukum - Arti & Pengertian',            
+            'keys'=>$keys,
+            'kamus'=>$kamus
+        ];  
+        return view('kamus.kamus_istilah_hukum', $data);
     }
 
     public function kamus_istilah_hukum_detail(Request $request,$url)    {
@@ -75,10 +92,10 @@ class KamusController extends Controller
         ->whereNotNull('ket')
         ->orderBy('id')
         ->get();
-        $keys = KamusHukum::select('indo','asing')
+        $keys = KamusHukum::select('indo')
         ->where('url',$url)
         ->whereNotNull('ket')
-        ->groupBy('indo','asing')
+        ->groupBy('indo')
         ->get();
         $keyword = "";
         foreach ($keys as $key) {
@@ -89,10 +106,11 @@ class KamusController extends Controller
             $description .= $k->ket.'. ';
         }
         $data = [
-            'description'=>$description,            
+            // 'description'=>$description,  
+            'description'=>'Pengertian ' .$keyword.' adalah ' .$description,           
             'keywords'=>$keyword,
             'content'=>$description,
-            'title'=>$keyword.' - Sindikat',
+            'title'=>'Pengertian ' .$keyword.' - Kamus Istilah Hukum',
             'url'=>$url,
             'keys'=>$keys,
             'kamus'=>$kamus
@@ -106,6 +124,7 @@ class KamusController extends Controller
         foreach ($kamus as $k) {
             $url = $k->indo ?? $k->asing ?? $k->id;
             $url = str_replace(' ','-',trim($url));
+            $url = str_replace('/','-',trim($url));
             $url = preg_replace('/[^a-zA-Z0-9\'-]/','',$url);
             $url = str_replace('--','-',$url);
             $url = str_replace('--','-',$url);

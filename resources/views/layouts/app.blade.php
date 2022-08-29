@@ -97,7 +97,11 @@
 <!-- Overlay Menu -->
 <div class="overlay-menu-wrap overlay-menu--style1" id="overlay-menu">
 	<a class="popup-close js-open-aside" href="#">
-		<svg class="woox-icon icon-close"><use xlink:href="#icon-close"></use></svg>
+		<svg class="woox-icon icon-close"><use xlink:href="#icon-close">
+		<symbol id="icon-close" viewBox="0 0 512 512">
+			<path d="m472 45c-6-5-16-5-22 0l-60 60c-5 6-5 15 0 22 6 5 16 5 22 0l60-60c6-6 6-15 0-22z m0 411l-411-411c-5-5-15-5-21 0-6 6-6 16 0 22l410 410c6 6 15 6 22 0 6-5 6-16 0-21z m-108-302c-6-6-15-6-22 0l-302 302c-5 5-5 15 0 21 6 6 16 6 22 0l302-302c6-6 6-16 0-21z"></path>
+		</symbol>
+		</use></svg>
 	</a>
 	<div class="perfect-scroll">
 		<nav class="overlay-menu">
@@ -192,12 +196,10 @@
 
 @yield('content')
 
-@include('hubungi-kami')
 
 <footer id="paling-bawah" class="hidden-xs border-top">
 	<div class="container">
 		<div class="no-padding mt-1">
-			<!-- <div class="masthead full60 hidden-xs" style="background-image:url(https://webster.divasoft.net/assets/img/bg_me4.png)!important;bottom:0;opacity:.4;position:absolute;top:0;left:0;width:100%;background-size:auto 120%;"></div> -->
 			<div class="row">
 				<div class="col-lg-5 col-md-8 col-sm-12 col-xs-12">
 					<div class="copyright-wrapper">

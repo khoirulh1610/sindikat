@@ -22,7 +22,7 @@
 								<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
 									<h2 class="uppercase bg-gray mb-3 uppercase">Spesialis Jasa Legalitas</h2>
 									<div class="heading-text mb-3 hidden-xs hidden-sm"><strong>Kenapa kami spesial?</strong></div>
-									<p class="bg-gray mb-3">Sindikat adalah portal legalitas bagi pelaku usaha yang memberikan <span class="line"><a href="/siasat">siasat legalitas</a></span> dan <span class="line"><a href="/legalitas">layanan legalitas</a></span> yang terpercaya.</p>
+									<p class="bg-gray mb-3">Sindikat adalah portal legalitas bagi pelaku usaha yang memberikan <span class="istilah"><a href="#siasat">siasat<sup>[1]</sup></a> </span> dan  <span class="istilah"><a href="#layanan-legalitas">layanan legalitas<sup>[2]</sup></a></span> yang terpercaya.</p>
 								</header>
 
 							</div>
@@ -213,12 +213,12 @@
 							<header class="">
 								<h2 class="uppercase bg-gray mb-3 uppercase">Spesialis Jasa Legalitas</h2>
 								<div class="heading-text mb-3 hidden-xs hidden-sm"><strong>Kenapa kami spesial?</strong></div>
-								<p class="bg-gray mb-3">Sindikat adalah portal legalitas bagi pelaku usaha yang memberikan <span class="line"><a href="/siasat">siasat legalitas</a></span> dan <span class="line"><a href="/legalitas">layanan legalitas</a></span> yang terpercaya.</p>
+								<p class="bg-gray mb-3">Sindikat adalah portal legalitas bagi pelaku usaha yang memberikan <span class="istilah"><a href="#siasat">siasat<sup>[1]</sup></a> </span> dan  <span class="istilah"><a href="#layanan-legalitas">layanan legalitas<sup>[2]</sup></a></span> yang terpercaya.</p>
 							</header>
 
 						</div>
 						<div class="col-lg-4 col-lg-offset-4 right ">
-							<h3 class="link--with-decoration uppercase heading mb-3"> Pilih Menu</h3>
+							<h5 class="link--with-decoration uppercase heading mb-3 mt-3"> Pilih Menu</h5>
 							<ul class="crumina-module crumina-accordion accordion--style2" id="accordion2">
 								<li class="accordion-panel">
 									<div class="panel-heading">
@@ -393,6 +393,23 @@
 		</div>
 	</div>
 </section>
+
+<div id="siasat" class="modalDialog">
+	<div>
+		<p><strong>siasat</strong> /si·a·sat/ </p>
+		<p>(1) periksa; pemeriksaan yang teliti; penyelidikan:</p>
+		<p>(2) menggunakan <strong>siasat</strong> (dengan bijaksana, muslihat, taktik); bertindak atau bekerja dengan cara baik;</p>
+		@include('layouts.tutup')
+	</div>
+</div>
+
+<div id="layanan-legalitas" class="modalDialog">
+	<div>
+		<p><strong>Layanan Legalitas</strong> </p>
+		<p>Sindikat memberikan layanan badan usaha dan perizinan</p>
+		@include('layouts.tutup')
+	</div>
+</div>
 
 <!-- mobile end -->
 @endsection
